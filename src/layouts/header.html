@@ -1,0 +1,186 @@
+<div class="header__top bg-black">
+  <div class="container mx-auto">
+    <div class="flex flex-row justify-between text-[13px]">
+      <div class="flex flex-row items-center gap-10">
+        <div class="flex flex-row items-center gap-2 hidden md:block">
+          <i class="far fa-clock text-[11px]"></i>
+          <span data-i18n="open_time"></span>
+        </div>
+        <div class="flex-row items-center gap-5 text-[11px] hidden md:flex">
+          <a href="#" class="hover:text-white hover:bg-blue-600 w-8 h-8 flex items-center justify-center"><i
+              class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-white hover:bg-blue-400 w-8 h-8 flex items-center justify-center"><i
+              class="fab fa-twitter"></i></a>
+          <a href="#" class="hover:text-white hover:bg-tumblr w-8 h-8 flex items-center justify-center"><i
+              class="fab fa-tumblr"></i></a>
+          <a href="#" class="hover:text-white hover:bg-vimeo w-8 h-8 flex items-center justify-center"><i
+              class="fab fa-vimeo-v"></i></a>
+        </div>
+        <div class="flex flex-row items-center gap-5">
+          <div class="flex items-center gap-1 cursor-pointer text-green-500" id="lang-vi">
+            <img src="../../assets/images/viet-nam.png" alt="Vietnam Flag" class="w-5 h-5">
+            <span class="hover:text-green-500">VI</span>
+          </div>
+          <div class="flex items-center gap-1 cursor-pointer" id="lang-en">
+            <img src="../../assets/images/united-kingdom.png" alt="English Flag" class="w-4 h-4">
+            <span class="hover:text-green-500">EN</span>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-5">
+        <a href="#" class="hover:text-green-500 flex items-center justify-center gap-1"><i class="fas fa-user"></i>
+          <span data-i18n="login"></span></a>
+        <a href="#" class="hover:text-green-500 flex items-center justify-center gap-1"><i
+            class="fas fa-user-plus"></i> <span data-i18n="register"></span></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="header__mid bg-cover bg-center text-[13px] p-5 md:p-0 bg-[url('../../assets/images/bg-header.png')]">
+  <div class="container mx-auto">
+    <div class="flex flex-row items-center">
+      <div class="logo basis-full md:basis-5/12 flex flex-row items-center">
+        <a href="#" class="flex flex-row justify-center items-center w-full">
+          <img src="../../assets/images/logo.webp" alt="logo">
+        </a>
+        <img src="../../assets/images/beside_logo.webp" alt="Green Shop" class="hidden md:block">
+      </div>
+      <div class="basis-1/12 hidden md:block"></div>
+      <div class="basis-5/12 flex flex-col items-center hidden md:block">
+        <div class="header__hotline text-center mb-1">
+          <i class="fas fa-phone-alt"></i>
+          <span data-i18n="support"></span>:
+          <a href="#" class="hover:text-green-500">(04) 6674 2332</a>
+          <span> - </span>
+          <a href="#" class="hover:text-green-500">(04) 3786 8904</a>
+        </div>
+        <div class="header__search w-full">
+          <form action="#" method="GET" class="flex flex-row items-center">
+            <input type="text" name="search" data-placeholder="search"
+              class="w-full h-10 px-5 border border-solid border-[#e1e1e1] rounded-l-[50px] focus:outline-none">
+            <button type="submit"
+              class="w-10 h-10 bg-white rounded-r-[50px] flex items-center justify-center border border-solid border-[#e1e1e1]">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="basis-1/12 flex justify-end mt-[25px] hidden md:block">
+        <div class="group relative flex flex-row items-center gap-5">
+          <a href="#" class="hover:text-green-500 flex items-center justify-center gap-1"><i
+              class="fas fa-shopping-basket text-[15px]"></i>0 <span data-i18n="products"></span></a>
+          <div
+            class="absolute hidden group-hover:block top-[35px] left-[-90px] p-[10px] bg-white text-center min-w-max">
+            <div class="flex justify-center">
+              <img src="../../assets/images/shopping-bag.png" alt="cart" class="w-8">
+            </div>
+            <div>
+              <span data-i18n="empty_cart"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="header__bottom bg-main text-white">
+  <div class="container">
+    <nav class="flex flex-row justify-between items-center">
+      <div class="nav__menu hidden md:block">
+        <ul class="flex flex-row">
+          <li class="px-[20px] py-[13px]"><i class="fas fa-bars"></i></li>
+          <li class="px-[20px] py-[13px] bg-active"><a href="#" class="hover:text-white"><span data-i18n="home"></span></a></li>
+          <li class="px-[20px] py-[13px] hover:text-white hover:bg-active"><a href="#"><span data-i18n="about"></span></a></li>
+          <li class="group relative px-[20px] py-[13px] hover:text-white hover:bg-active">
+            <a href="#"><span data-i18n="products"></span> <i class="fas fa-caret-down"></i></a>
+            <ul
+              class="absolute hidden group-hover:block bg-white text-black top-[50px] text-[14px] left-0 min-w-max">
+              <li class="hover:text-white hover:bg-active px-[20px] py-[13px]"><a href="#"><i
+                    class="fas fa-caret-right mr-3"></i><span data-i18n="promo_product_1"></span></a></li>
+              <li class="hover:text-white hover:bg-active px-[20px] py-[13px]"><a href="#"><i
+                    class="fas fa-caret-right mr-3"></i><span data-i18n="promo_product_1"></span></a></li>
+              <li class="hover:text-white hover:bg-active px-[20px] py-[13px]"><a href="#"><i
+                    class="fas fa-caret-right mr-3"></i><span data-i18n="promo_product_1"></span></a></li>
+            </ul>
+          </li>
+          <li class="group relative px-[20px] py-[13px] hover:text-white hover:bg-active">
+            <a href="#"><span data-i18n="new_products"></span> <i class="fas fa-caret-down"></i></a>
+            <ul
+              class="absolute hidden group-hover:block bg-white text-black top-[50px] text-[14px] left-0 min-w-max">
+              <li class="hover:text-white hover:bg-active px-[20px] py-[13px]"><a href="#"><i
+                    class="fas fa-caret-right mr-3"></i><span data-i18n="promo_product_1"></span></a></li>
+              <li class="hover:text-white hover:bg-active px-[20px] py-[13px]"><a href="#"><i
+                    class="fas fa-caret-right mr-3"></i><span data-i18n="promo_product_1"></span></a></li>
+              <li class="hover:text-white hover:bg-active px-[20px] py-[13px]"><a href="#"><i
+                    class="fas fa-caret-right mr-3"></i><span data-i18n="promo_product_1"></span></a></li>
+            </ul>
+          </li>
+          <li class="px-[20px] py-[13px] hover:text-white hover:bg-active"><a href="#"><span data-i18n="news"></span></a></li>
+          <li class="px-[20px] py-[13px] hover:text-white hover:bg-active"><a href="#"><span data-i18n="contact"></span></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="menu-bar__mobile flex flex-row justify-between items-center md:hidden">
+      <div id="mobile-menu-toggle" class="py-[15px]">
+        <i class="fas fa-bars cursor-pointer"></i>
+      </div>
+      <div class="flex flex-row items-center gap-5">
+        <div class="flex flex-row items-center gap-3">
+          <form class="hidden" id="search-form">
+            <input type="text" id="search-input" name="search" data-placeholder="search"
+              class="text-black h-5 px-5 w-40 border-solid border-[#e1e1e1] rounded-[50px] focus:outline-none">
+          </form>
+          <i id="search-icon" class="fas fa-search"></i>
+        </div>
+        <div class="relative">
+          <div class="absolute flex justify-center items-center bg-white left-2 top-[-1px] rounded-full h-4 w-4 text-black text-[10px]">0</div>
+          <i class="fas fa-shopping-basket"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden bg-white text-[#898989] text-[14px]">
+    <ul>
+      <li class="px-[20px] py-[10px] border-t border-solid border-[#e4ebf0] text-[#3fb871]">
+        <a><span data-i18n="home"></span></a>
+      </li>
+      <li class="px-[20px] py-[10px] border-t border-solid border-[#e4ebf0]">
+        <a><span data-i18n="about"></span></a>
+      </li>
+      <li class="px-[20px] py-[10px] border-t border-solid border-[#e4ebf0]">
+        <a class="flex flex-row justify-between">
+          <span data-i18n="products"></span>
+          <div id="mobile-icon-down">
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div id="mobile-icon-up" class="hidden">
+            <i class="fas fa-caret-up"></i>
+          </div>
+        </a>
+      </li>
+      <li id="mobile-child-product" class="hidden">
+        <ul>
+          <li class="pl-[30px] pr-[15px] py-[10px] border-t border-solid border-[#e4ebf0]">
+            <a><span data-i18n="promo_product_1"></span></a>
+          </li>
+          <li class="pl-[30px] pr-[15px] py-[10px] border-t border-solid border-[#e4ebf0]">
+            <a><span data-i18n="promo_product_1"></span></a>
+          </li>
+          <li class="pl-[30px] pr-[15px] py-[10px] border-t border-solid border-[#e4ebf0]">
+            <a><span data-i18n="promo_product_1"></span></a>
+          </li>
+        </ul>
+      </li>
+      <li class="px-[20px] py-[10px] border-t border-solid border-[#e4ebf0]">
+        <a><span data-i18n="news"></span></a>
+      </li>
+      <li class="px-[20px] py-[10px] border-t border-solid border-[#e4ebf0]">
+        <a><span data-i18n="contact"></span></a>
+      </li>
+    </ul>
+  </div>
+</div>

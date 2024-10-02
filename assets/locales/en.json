@@ -1,0 +1,21 @@
+{
+  "header": {
+    "open_time": "Open time: 8:00 - 18:00 Monday - Sunday",
+    "login": "Login",
+    "register": "Register",
+    "promo_product_1": "Promo Product 1",
+    "promo_product_2": "Promo Product 2",
+    "promo_product_3": "Promo Product 3",
+    "news": "News",
+    "support": "SUPPORT",
+    "products": "Products",
+    "contact": "Contact",
+    "home": "Home",
+    "about": "About",
+    "new_products": "New Products",
+    "empty_cart": "No products in your cart"
+  },
+  "placeholders": {
+    "search": "Search..."
+  }
+}

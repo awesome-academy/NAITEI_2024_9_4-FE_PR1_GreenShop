@@ -1,0 +1,21 @@
+{
+  "header": {
+    "open_time": "Giờ mở cửa: 8:00 - 18:00 Thứ Hai - Chủ Nhật",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "promo_product_1": "Sản phẩm khuyến mãi 1",
+    "promo_product_2": "Sản phẩm khuyến mãi 2",
+    "promo_product_3": "Sản phẩm khuyến mãi 3",
+    "news": "Tin tức",
+    "support": "HỖ TRỢ",
+    "products": "Sản phẩm",
+    "contact": "Liên hệ",
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "new_products": "Sản phẩm mới",
+    "empty_cart": "Không có sản phẩm nào trong giỏ hàng của bạn"
+  },
+  "placeholders": {
+    "search": "Tìm kiếm"
+  }
+}
