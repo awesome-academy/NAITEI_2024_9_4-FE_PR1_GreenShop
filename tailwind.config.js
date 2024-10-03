@@ -7,7 +7,10 @@ module.exports = {
         main:'#3fb871',
         active: '#36a66d',
         vimeo: '#1AB7EA',
-        tumblr: '#36465D'
+        tumblr: '#36465D',
+        border: '#E1E1E1',
+        border2: '#e4ebf0',
+        border3: '#898989',
       },
       container: {
         center: true,
