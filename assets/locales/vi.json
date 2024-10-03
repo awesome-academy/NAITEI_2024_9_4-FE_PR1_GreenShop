@@ -26,6 +26,7 @@
     "popup_dont_show_again": "Không hiển thị lại thông báo này nữa"
   },
   "outstanding_products": {
-    "title": "Sản phẩm nổi bật"
+    "title": "Sản phẩm nổi bật",
+    "add_to_cart": "Cho vào giỏ hàng"
   }
 }

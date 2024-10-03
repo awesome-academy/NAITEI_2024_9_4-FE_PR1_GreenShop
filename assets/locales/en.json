@@ -19,6 +19,7 @@
     "search": "Search..."
   },
   "outstanding_products": {
-    "title": "Outstanding Products"
+    "title": "Outstanding Products",
+    "add_to_cart": "Add to cart"
   }
 }
