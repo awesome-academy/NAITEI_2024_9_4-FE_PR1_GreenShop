@@ -2,20 +2,48 @@
 <html lang="vi">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../../assets/css/output.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../assets/css/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 
 <body class="text-gray-400">
-  <header id="header"></header>
-  <!-- popup -->
-  <div id="popup-container"></div>
+    <header id="header"></header>
+    <main>
+        <div class="carousel relative h-[116px] md:h-[454px] overflow-hidden">
+            <div class="carousel__list absolute left-0 top-0 flex h-full w-max transition-[1s]">
+                <div class="carousel__list-item w-screen h-full object-cover">
+                    <img src="../../assets/images/slider_1.webp" alt="carousel-1" />
+                </div>
+                <div class="carousel__list-item w-screen h-full object-cover">
+                    <img src="../../assets/images/slider_2.webp" alt="carousel-2" />
+                </div>
+            </div>
+            <div
+                class="buttons absolute top-[35%] md:top-1/2 transform -translate-y-1/2 flex justify-between text-white w-full px-4">
+                <button id="prev" class="absolute left-0 bg-main rounded-full w-8 h-8 flex justify-center items-center">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="next"
+                    class="absolute right-0 bg-main rounded-full w-8 h-8 flex justify-center items-center">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
 
-  <script defer src="../../assets/js/popup.js"></script>
-  <script defer src="../../assets/js/header.js"></script>
-  <script defer src="../../assets/js/i18n.js"></script>
+            <ul class="dots absolute top-[85%] md:top-[95%] left-1/2 flex">
+                <li class="dot active w-2 h-2 rounded-full bg-main mr-3 transition-[1s]"></li>
+                <li class="dot active w-2 h-2 rounded-full bg-white mr-3 transition-[1s]"></li>
+            </ul>
+        </div>
+    </main>
+    <!-- popup -->
+    <div id="popup-container"></div>
+
+    <script defer src="../../assets/js/carousel.js"></script>
+    <script defer src="../../assets/js/popup.js"></script>
+    <script defer src="../../assets/js/header.js"></script>
+    <script defer src="../../assets/js/i18n.js"></script>
 </body>
 
 </html>

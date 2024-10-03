@@ -606,6 +606,10 @@ video {
   left: 0px;
 }
 
+.left-1\/2 {
+  left: 50%;
+}
+
 .left-2 {
   left: 0.5rem;
 }
@@ -614,8 +618,16 @@ video {
   left: -90px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .right-3 {
   right: 0.75rem;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .top-3 {
@@ -626,6 +638,10 @@ video {
   top: -1px;
 }
 
+.top-\[35\%\] {
+  top: 35%;
+}
+
 .top-\[35px\] {
   top: 35px;
 }
@@ -634,8 +650,16 @@ video {
   top: 50px;
 }
 
+.top-\[85\%\] {
+  top: 85%;
+}
+
 .z-50 {
   z-index: 50;
+}
+
+.z-\[1\] {
+  z-index: 1;
 }
 
 .mx-auto {
@@ -691,6 +715,10 @@ video {
   height: 2.5rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -703,12 +731,24 @@ video {
   height: 2rem;
 }
 
+.h-\[116px\] {
+  height: 116px;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
 .w-12 {
   width: 3rem;
+}
+
+.w-2 {
+  width: 0.5rem;
 }
 
 .w-2\/5 {
@@ -733,6 +773,15 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .min-w-max {
@@ -762,6 +811,15 @@ video {
 
 .basis-full {
   flex-basis: 100%;
+}
+
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .cursor-pointer {
@@ -812,6 +870,10 @@ video {
   gap: 1.25rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-\[50px\] {
   border-radius: 50px;
 }
@@ -840,16 +902,6 @@ video {
 
 .border-solid {
   border-style: solid;
-}
-
-.border-\[\#e1e1e1\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(225 225 225 / var(--tw-border-opacity));
-}
-
-.border-\[\#e4ebf0\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(228 235 240 / var(--tw-border-opacity));
 }
 
 .border-gray-300 {
@@ -903,6 +955,11 @@ video {
   background-position: center;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -917,6 +974,11 @@ video {
 
 .p-\[10px\] {
   padding: 10px;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .px-5 {
@@ -1012,16 +1074,6 @@ video {
   font-weight: 600;
 }
 
-.text-\[\#3fb871\] {
-  --tw-text-opacity: 1;
-  color: rgb(63 184 113 / var(--tw-text-opacity));
-}
-
-.text-\[\#898989\] {
-  --tw-text-opacity: 1;
-  color: rgb(137 137 137 / var(--tw-text-opacity));
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1030,6 +1082,11 @@ video {
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .text-gray-600 {
@@ -1052,6 +1109,11 @@ video {
   color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
+.text-main {
+  --tw-text-opacity: 1;
+  color: rgb(63 184 113 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1061,6 +1123,12 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition-\[1s\] {
+  transition-property: 1s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .hover\:bg-active:hover {
@@ -1118,6 +1186,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:top-1\/2 {
+    top: 50%;
+  }
+
+  .md\:top-\[95\%\] {
+    top: 95%;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1128,6 +1204,10 @@ video {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:h-\[454px\] {
+    height: 454px;
   }
 
   .md\:basis-5\/12 {

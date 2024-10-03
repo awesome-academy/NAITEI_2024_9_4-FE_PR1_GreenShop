@@ -24,5 +24,8 @@
     "popup_subtitle": "ĐĂNG KÝ EMAIL NGAY HÔM NAY",
     "popup_description": "Đăng ký email ngay hôm nay để nhận các thông tin về sự kiện và các chương trình giảm giá từ chúng tôi",
     "popup_dont_show_again": "Không hiển thị lại thông báo này nữa"
+  },
+  "outstanding_products": {
+    "title": "Sản phẩm nổi bật"
   }
 }

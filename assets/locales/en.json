@@ -17,5 +17,8 @@
   },
   "placeholders": {
     "search": "Search..."
+  },
+  "outstanding_products": {
+    "title": "Outstanding Products"
   }
 }
