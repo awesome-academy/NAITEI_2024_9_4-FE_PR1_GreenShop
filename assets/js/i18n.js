@@ -13,7 +13,17 @@ const loadTranslations = (lang) =>{
           element.textContent = translation;
         }
       });
-
+      document.querySelectorAll('[data-i18n]').forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        const keys = key.split('.');
+        let translation = translations.popup;
+        keys.forEach(k => {
+          translation = translation[k];
+        });
+        if (translation) {
+          element.textContent = translation;
+        }
+      });
       document.querySelectorAll('[data-placeholder]').forEach(element => {
         const placeholderKey = element.getAttribute('data-placeholder');
         const placeholderTranslation = translations.placeholders[placeholderKey];
