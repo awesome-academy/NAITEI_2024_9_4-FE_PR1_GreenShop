@@ -16,7 +16,14 @@
     "empty_cart": "Không có sản phẩm nào trong giỏ hàng của bạn"
   },
   "placeholders": {
-    "search": "Tìm kiếm"
+    "search": "Tìm kiếm",
+    "email_placeholder": "Nhập email của bạn vào đây"
+  },
+  "popup": {
+    "popup_title": "Nhận tin tức từ chúng tôi", 
+    "popup_subtitle": "ĐĂNG KÝ EMAIL NGAY HÔM NAY",
+    "popup_description": "Đăng ký email ngay hôm nay để nhận các thông tin về sự kiện và các chương trình giảm giá từ chúng tôi",
+    "popup_dont_show_again": "Không hiển thị lại thông báo này nữa"
   },
   "outstanding_products": {
     "title": "Sản phẩm nổi bật"

@@ -11,18 +11,26 @@ let refreshSlide = setInterval(() => {
   next.click();
 }, 5000);
 
-const reloadSlider = () => {
-  let checkLeft = items[active].offsetLeft;
-  list.style.left = `-${checkLeft}px`;
-  let lastActiveDot = document.querySelector('.dots li.bg-main');
+const changeDots = (lastActiveDot) => {
   lastActiveDot.classList.remove('bg-main');
   lastActiveDot.classList.add('bg-white');
   dots[active].classList.remove('bg-white');
   dots[active].classList.add('bg-main');
+}
+
+const refreshIntervalSlide = () => {
   clearInterval(refreshSlide);
   refreshSlide = setInterval(() => {
     next.click();
   }, 5000);
+} 
+
+const reloadSlider = () => {
+  let checkLeft = items[active].offsetLeft;
+  let lastActiveDot = document.querySelector('.dots li.bg-main');
+  list.style.left = `-${checkLeft}px`;
+  changeDots(lastActiveDot);
+  refreshIntervalSlide();
 }
 
 next.onclick = () => {
