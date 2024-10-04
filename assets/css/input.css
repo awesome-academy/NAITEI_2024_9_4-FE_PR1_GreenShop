@@ -1,3 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Custom CSS */
+.title-product-list {
+  @apply text-main font-bold text-[17px] pt-[10px] pb-[18px] border-b border-b-gray-200 border-solid mb-[20px];
+}
+
+.border-b-title-product-list {
+  @apply pb-[15px] border-b-[3px] border-b-main border-solid;
+}
+
+.product-card {
+  @apply border border-gray-200;
+}
+
+.img-product-big-wrapper {
+  @apply p-[8px] block h-[225px] md:h-[478px];
+}
+
+.img-product-medium-wrapper {
+  @apply p-[8px] block h-[134px] md:h-[225px];
+}
+
+.img-product-medium-wrapper-no-responsive {
+  @apply p-[8px] block h-[225px];
+}
+
+.img-product-small-wrapper {
+  @apply px-[15px] w-[110px] h-[80px];
+}
+
+.img-product {
+  @apply w-full h-full object-cover;
+}
+
+.img-product-hover {
+  @apply w-full h-full bg-gray-900 absolute top-0 left-0 bg-opacity-0;
+}
+
+.product-card-btn-wrapper {
+  @apply group-hover:flex justify-center hidden absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full;
+}
+
+.product-add-btn {
+  @apply bg-main text-white hover:bg-white hover:text-main h-[45px] px-[10px] py-[5px] rounded-[20px] flex items-center justify-center mx-2
+}
+
+.product-detail-btn {
+  @apply bg-white h-[45px] w-[45px] rounded-full;
+}
+
+.tag-product {
+  @apply absolute text-white bg-red-500 w-[60px] h-[60px] left-[20px] top-[20px] rounded-full leading-[60px] text-center;
+}
+
+.product-card-info {
+  @apply p-[15px] text-center text-[16px] flex flex-col items-center;
+}
+
+.product-card-price {
+  @apply text-center md:text-[18px];
+}
+
+.discount-price {
+  @apply text-red-400 mr-[10px];
+}
+
+.line-through-price {
+  @apply md:text-[14px] text-[12px] line-through;
+}
+
+.btn-slider {
+  @apply rounded-full border border-gray-300 h-5 w-5 flex justify-center items-center text-[12px] hover:bg-main hover:text-white;
+}

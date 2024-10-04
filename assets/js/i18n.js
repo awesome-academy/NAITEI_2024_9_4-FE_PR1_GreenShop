@@ -5,21 +5,7 @@ const loadTranslations = (lang) =>{
       document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         const keys = key.split('.');
-        let translation = translations.header;
-        keys.forEach(k => {
-          translation = translation[k];
-        });
-        if (translation) {
-          element.textContent = translation;
-        }
-      });
-      document.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        const keys = key.split('.');
-        let translation = translations.popup;
-        keys.forEach(k => {
-          translation = translation[k];
-        });
+        let translation = translations[keys[0]][keys[1]];
         if (translation) {
           element.textContent = translation;
         }

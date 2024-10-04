@@ -3,6 +3,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}", "./pages/**/*.{html,js}"],
   theme: {
     extend: {
+      minWidth: {
+        '1/2': 'calc(( 100% - 1rem ) / 2)',
+        '1/3': 'calc(( 100% - 2rem ) / 3)',
+        '1/4' : 'calc(( 100% - 4rem ) / 4)',
+      },
       colors: {
         main:'#3fb871',
         active: '#36a66d',

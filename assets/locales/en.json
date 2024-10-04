@@ -19,6 +19,19 @@
     "search": "Search..."
   },
   "outstanding_products": {
-    "title": "Outstanding Products"
+    "title": "Outstanding Products",
+    "add_to_cart": "Add to cart"
+  },
+  "frequently_purchased_products": {
+    "title": "Frequently Purchased Products"
+  },
+  "promo_products": {
+    "title": "Promo Products"
+  },
+  "new_products": {
+    "title": "New Products"
+  },
+  "news": {
+    "title": "News"
   }
 }
