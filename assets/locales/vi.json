@@ -74,6 +74,11 @@
     "sitemap": "Sitemap",
     "product_categories": "Danh mục sản phẩm",
     "cooperation": "Hợp tác",
-    "contact_info": "Thông tin liên hệ"
+    "contact_info": "Thông tin liên hệ",
+    "title": "Tin tức"
+  },
+  "product_catalog": {
+    "search_products": "Tìm theo giá",
+    "search_color": "Tìm theo màu"
   }
 }
