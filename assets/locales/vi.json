@@ -28,5 +28,17 @@
   "outstanding_products": {
     "title": "Sản phẩm nổi bật",
     "add_to_cart": "Cho vào giỏ hàng"
+  },
+  "frequently_purchased_products": {
+    "title": "Sản phẩm mua nhiều"
+  },
+  "promo_products": {
+    "title": "Sản phẩm khuyến mãi"
+  },
+  "new_products": {
+    "title": "Sản phẩm mới"
+  },
+  "news": {
+    "title": "Tin tức"
   }
 }
