@@ -16,7 +16,8 @@
     "empty_cart": "No products in your cart"
   },
   "placeholders": {
-    "search": "Search..."
+    "search": "Search...",
+    "email_placeholder": "Enter your email here ..."
   },
   "outstanding_products": {
     "title": "Outstanding Products",
@@ -32,6 +33,41 @@
     "title": "New Products"
   },
   "news": {
-    "title": "News"
+    "title": "News",
+    "read_more": "Read more"
+  },
+  "footer": {
+    "info_channel": "Information channel from us",
+    "subscribe_email": "Subscribe to our email",
+    "green_shop_intro": "Green shop was established from 8/2010, has been trusted by customers throughout its operation until now, the store is growing day by day.",
+    "phone": "Phone",
+    "customer_info": "Customer Information",
+    "my_account": "My Account",
+    "favorite_products": "Favorite Products",
+    "purchase_history": "Purchase History",
+    "return_policy": "Return Policy",
+    "feedback_complaints": "Feedback & Complaints",
+    "service_support": "Service Support",
+    "store_system": "Store System",
+    "shopping_guide": "Shopping Guide",
+    "payment_guide": "Payment Guide",
+    "points_redemption": "Points Redemption",
+    "faq": "FAQ",
+    "promotion_policy": "Promotion Policy",
+    "shipping_policy": "Shipping Policy",
+    "product_return_policy": "Product Return Policy",
+    "warranty_policy": "Warranty Policy",
+    "new_product_intro": "New Product Introduction",
+    "installment_policy": "Installment Policy",
+    "news": "News",
+    "latest_news": "Latest News",
+    "promotions": "Promotions",
+    "recruitment": "Recruitment",
+    "download": "Download",
+    "tags": "Tags",
+    "sitemap": "Sitemap",
+    "product_categories": "Product Categories",
+    "cooperation": "Cooperation",
+    "contact_info": "Contact Information"
   }
 }
