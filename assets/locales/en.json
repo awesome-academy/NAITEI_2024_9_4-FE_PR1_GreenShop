@@ -69,5 +69,24 @@
     "product_categories": "Product Categories",
     "cooperation": "Cooperation",
     "contact_info": "Contact Information"
+  },
+  "product_catalog": {
+    "search_products": "Search by price",
+    "search_color": "Search by color"
+  },
+  "cart": {
+    "cart": "Cart",
+    "image": "Image",
+    "product_name": "Product Name",
+    "unit_price": "Unit Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "delete": "Delete",
+    "cancel_order": "Cancel Order",
+    "continue_shopping": "Continue Shopping",
+    "total_amount": "Total Amount (excluding tax)",
+    "tax": "Tax (10% VAT)",
+    "total_to_pay": "Total to Pay",
+    "payment": "Payment"
   }
 }
