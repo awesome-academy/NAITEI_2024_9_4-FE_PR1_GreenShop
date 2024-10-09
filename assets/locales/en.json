@@ -110,5 +110,20 @@
   },
   "list_products": {
     "buy_now": "BUY NOW"
+  },
+  "cart": {
+    "cart": "Cart",
+    "image": "Image",
+    "product_name": "Product Name",
+    "unit_price": "Unit Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "delete": "Delete",
+    "cancel_order": "Cancel Order",
+    "continue_shopping": "Continue Shopping",
+    "total_amount": "Total Amount (excluding tax)",
+    "tax": "Tax (10% VAT)",
+    "total_to_pay": "Total to Pay",
+    "payment": "Payment"
   }
 }
