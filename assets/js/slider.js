@@ -1,9 +1,9 @@
 const initializeSlider = (sliderContainer, prevButton, nextButton, visibleItems) => {
   const sliders = sliderContainer.querySelectorAll('.productSlider');
-  const productCards = sliderContainer.id==="news" ? sliderContainer.querySelectorAll('.news-card') : sliderContainer.querySelectorAll('.product-card');
-  const cardWidth = productCards[1].offsetLeft;
+  const cards = sliderContainer.id==='news' ? sliderContainer.querySelectorAll('.news-card') : sliderContainer.querySelectorAll('.product-card');
+  const cardWidth = cards[1].offsetLeft;
   let currentIndex = 0;
-  const maxIndex = sliderContainer.id==="news" ? -(productCards.length - visibleItems) :-(productCards.length / 2 - visibleItems);
+  const maxIndex = sliderContainer.id==='news' ? -(cards.length - visibleItems) :-(cards.length / 2 - visibleItems);
 
   const updateSliderPosition = (newIndex) => {
     currentIndex = newIndex;

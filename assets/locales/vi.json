@@ -17,7 +17,7 @@
   },
   "placeholders": {
     "search": "Tìm kiếm",
-    "email_placeholder": "Nhập email của bạn vào đây"
+    "email_placeholder": "Nhập email của bạn vào đây ..."
   },
   "popup": {
     "popup_title": "Nhận tin tức từ chúng tôi", 
@@ -39,6 +39,41 @@
     "title": "Sản phẩm mới"
   },
   "news": {
-    "title": "Tin tức"
+    "title": "Tin tức",
+    "read_more": "Đọc tiếp"
+  },
+  "footer": {
+    "info_channel": "Kênh thông tin từ chúng tôi",
+    "subscribe_email": "Đăng ký nhận email từ chúng tôi",
+    "green_shop_intro": "Green shop được thành lập từ 8/2010 được sự tin tưởng của khách hàng trong suốt thời gian hoạt động đến nay cửa hàng ngày một phát triển.",
+    "phone": "Điện thoại",
+    "customer_info": "Thông tin khách hàng",
+    "my_account": "Tài khoản của tôi",
+    "favorite_products": "Sản phẩm yêu thích",
+    "purchase_history": "Lịch sử mua hàng",
+    "return_policy": "Chính sách đổi trả",
+    "feedback_complaints": "Góp ý khiếu nại",
+    "service_support": "Hỗ trợ dịch vụ",
+    "store_system": "Hệ thống cửa hàng",
+    "shopping_guide": "Hướng dẫn mua hàng",
+    "payment_guide": "Hướng dẫn thanh toán",
+    "points_redemption": "Tích điểm đổi quà",
+    "faq": "Câu hỏi thường gặp",
+    "promotion_policy": "Chính sách ưu đãi",
+    "shipping_policy": "Chính sách giao hàng",
+    "product_return_policy": "Chính sách đổi trả sản phẩm",
+    "warranty_policy": "Chính sách bảo hành",
+    "new_product_intro": "Giới thiệu sản phẩm mới",
+    "installment_policy": "Chính sách trả góp",
+    "news": "Tin tức",
+    "latest_news": "Tin mới",
+    "promotions": "Khuyến mại",
+    "recruitment": "Tuyển dụng",
+    "download": "Download",
+    "tags": "Tags",
+    "sitemap": "Sitemap",
+    "product_categories": "Danh mục sản phẩm",
+    "cooperation": "Hợp tác",
+    "contact_info": "Thông tin liên hệ"
   }
 }
