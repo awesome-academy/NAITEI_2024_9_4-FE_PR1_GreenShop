@@ -80,5 +80,21 @@
   "product_catalog": {
     "search_products": "Tìm theo giá",
     "search_color": "Tìm theo màu"
+  },
+  "login": {
+    "title": "Đăng nhập",
+    "personal_info": "Thông tin cá nhân",
+    "your_email": "Email của bạn",
+    "password": "Mật khẩu",
+    "remember_account": "Ghi nhớ tài khoản",
+    "forgot_password": "Bạn quên mật khẩu?",
+    "no_account": "Bạn chưa có tài khoản ?",
+    "register_prompt": "Đăng ký tài khoản ngay để có thể mua hàng nhanh chóng và dễ dàng hơn! Ngoài ra còn có rất nhiều chính sách và ưu đãi cho các thành viên citybike.",
+    "register": "Đăng ký"
+  },
+  "alert": {
+    "login_success": "Đăng nhập thành công !",
+    "error_email": "Email không hợp lệ",
+    "error_password": "Mật khẩu phải chứa ít nhất 6 ký tự"
   }
 }
