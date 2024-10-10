@@ -135,5 +135,10 @@
     "status": "Status",
     "action": "Action",
     "view_detail": "View detail"
+  },
+  "news_page": {
+    "product_category": "Product Categories",
+    "featured_news": "Featured News",
+    "blog_tags": "Blog Tags"
   }
 }
