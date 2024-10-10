@@ -69,5 +69,28 @@
     "product_categories": "Product Categories",
     "cooperation": "Cooperation",
     "contact_info": "Contact Information"
+  },
+  "login": {
+    "title": "Login",
+    "personal_info": "Personal Information",
+    "your_email": "Your Email",
+    "password": "Password",
+    "remember_account": "Remember Account",
+    "forgot_password": "Forgot Password?",
+    "no_account": "Don't have an account?",
+    "register_prompt": "Register an account now to shop faster and easier! There are also many policies and incentives for citybike members.",
+    "register": "Register"
+  },
+  "alert": {
+    "login_success": "Login successfully !",
+    "error_email": "Invalid email",
+    "error_password": "Password must be at least 6 characters"
+  },
+  "product_catalog": {
+    "search_products": "Search by price",
+    "search_color": "Search by color"
+  },
+  "list_products": {
+    "buy_now": "BUY NOW"
   }
 }

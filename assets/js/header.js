@@ -20,6 +20,7 @@ const addLanguageSwitchEvents = () => {
 }
 
 const switchLanguage = (lang, activeBtn, inactiveBtn) => {
+  localStorage.setItem('lang', lang);
   loadTranslations(lang);
   activeBtn.classList.add('text-green-500');
   inactiveBtn.classList.remove('text-green-500');
