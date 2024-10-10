@@ -1,5 +1,13 @@
+const setLanguage = (lang) => {
+  localStorage.setItem('userLanguage', lang);
+ }
+
+ const getLanguage = () => {
+  return localStorage.getItem('userLanguage') || 'vi';
+ }
+
 const loadTranslations = (lang) =>{
-  fetch(`../../assets/locales/${lang}.json`)
+  fetch(`/assets/locales/${lang}.json`)
     .then(response => response.json())
     .then(translations => {
       document.querySelectorAll('[data-i18n]').forEach(element => {
@@ -22,5 +30,6 @@ const loadTranslations = (lang) =>{
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  loadTranslations('vi');
+  addLanguageSwitchEvents();
+  loadTranslations(getLanguage());
 });

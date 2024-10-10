@@ -82,9 +82,27 @@
     "register": "Register"
   },
   "alert": {
-    "login_success": "Login successfully !",
-    "error_email": "Invalid email",
-    "error_password": "Password must be at least 6 characters"
+    "login_success": "Login successful!",
+    "register_success": "Register successful!",
+    "error_fullName": "Full name is required.",
+    "error_phoneNumber": "Phone number is required.",
+    "error_email": "Email must be valid.",
+    "error_webURL": "Please enter a valid URL.",
+    "error_password": "Password must be at least 6 characters long.",
+    "error_confirmPassword": "Passwords do not match."
+  },
+  "register": {
+    "title": "Register",
+    "personal_info": "Personal Information",
+    "full_name": "Full Name",
+    "email_address": "Email Address",
+    "phone_number": "Phone Number",
+    "your_website": "Your Website",
+    "email_signup": "Sign up for email updates",
+    "account_info": "Account Information",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "back": "Back"
   },
   "product_catalog": {
     "search_products": "Search by price",

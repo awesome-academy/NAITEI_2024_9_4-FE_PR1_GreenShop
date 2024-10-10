@@ -2,22 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const gridViewBtn = document.getElementById('gridViewBtn');
     const listViewBtn = document.getElementById('listViewBtn');
     const productContainer = document.getElementById('productContainer');
-    // Tải lại i18n
-    const loadTranslations = (lang) => {
-        fetch(`../../assets/locales/${lang}.json`)
-            .then(response => response.json())
-            .then(translations => {
-                document.querySelectorAll('[data-i18n]').forEach(element => {
-                    const key = element.getAttribute('data-i18n');
-                    const keys = key.split('.');
-                    let translation = translations[keys[0]][keys[1]];
-                    if (translation) {
-                        element.textContent = translation;
-                    }
-                });
-            })
-            .catch(error => console.error('Error loading translations:', error));
-    }
+
+    loadTranslations(getLanguage());
 
     // Hàm hiển thị dạng Grid
     function showGridView() {
@@ -25,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.text())
             .then(data => {
                 productContainer.innerHTML = data;
-                loadTranslations(localStorage.getItem('lang') || 'vi');
+                loadTranslations(getLanguage() || 'vi');
             });
     }
 
@@ -35,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
             .then(response => response.text())
             .then(data => {
                 productContainer.innerHTML = data;
-                loadTranslations(localStorage.getItem('lang') || 'vi');
+                loadTranslations(getLanguage() || 'vi');
             });
     }
 
