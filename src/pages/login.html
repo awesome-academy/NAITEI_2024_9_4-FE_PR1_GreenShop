@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../assets/css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Login</title>
+</head>
+<body class="text-gray-400">
+  <header id="header"></header>
+
+  <main>
+    <div class="container">
+      <div class="flex flex-row md:flex-nowrap flex-wrap mt-[100px]">
+        <div class="md:basis-1/2 basis-full mr-[50px] mb-[30px]">
+          <h2 class="uppercase text-main font-bold mb-[50px]"><span data-i18n="login.personal_info"></span></h2>
+          <form id="loginForm">
+            <div class="mb-10">
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"><span data-i18n="login.your_email"></span></label>
+              <input type="text" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
+              <p id="emailError" class="text-sm text-red-600 mt-2 hidden"><span data-i18n="alert.error_email"></span></p>
+            </div>
+            <div class="mb-10">
+              <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"><span data-i18n="login.password"></span></label>
+              <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
+              <p id="passwordError" class="text-sm text-red-600 mt-2 hidden"><span data-i18n="alert.error_password"></span></p>
+            </div>
+            <div class="flex items-start mb-5">
+              <div class="flex items-center h-5">
+                <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"/>
+              </div>
+              <div class="flex justify-between items-center ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 gap-5">
+                <label for="remember" class=""><span data-i18n="login.remember_account"></span></label>
+                <a href="#" class="text-gray-400 italic underline">
+                  <span data-i18n="login.forgot_password"></span>
+                </a>
+              </div>
+            </div>
+            <button type="submit" class="text-white bg-main px-[30px] py-[10px] rounded-[20px] text-[14px] uppercase border border-main border-1 hover:bg-white hover:text-main"><span data-i18n="login.title"></span></button>
+          </form>
+        </div>
+        <div class="md:basis-1/2 basis-full">
+          <h2 class="uppercase text-main font-bold mb-[10px]"><span data-i18n="login.no_account"></span></h2>
+          <p class="text-[13px] mb-[30px]"><span data-i18n="login.register_prompt"></span></p>
+          <button type="button" class="text-white bg-main px-[30px] py-[10px] rounded-[20px] text-[14px] uppercase border border-main border-1 hover:bg-white hover:text-main"><span data-i18n="login.register"></span></button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../../assets/js/header.js"></script>
+  <script src="../../assets/js/validateFormLogin.js"></script>
+  <script src="../../assets/js/i18n.js"></script>
+</body>
+</html>
