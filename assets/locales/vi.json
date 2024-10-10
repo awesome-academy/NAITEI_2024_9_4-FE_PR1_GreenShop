@@ -96,5 +96,8 @@
     "login_success": "Đăng nhập thành công !",
     "error_email": "Email không hợp lệ",
     "error_password": "Mật khẩu phải chứa ít nhất 6 ký tự"
+  },
+  "list_products": {
+    "buy_now": "MUA NGAY"
   }
 }

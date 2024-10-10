@@ -85,5 +85,12 @@
     "login_success": "Login successfully !",
     "error_email": "Invalid email",
     "error_password": "Password must be at least 6 characters"
+  },
+  "product_catalog": {
+    "search_products": "Search by price",
+    "search_color": "Search by color"
+  },
+  "list_products": {
+    "buy_now": "BUY NOW"
   }
 }

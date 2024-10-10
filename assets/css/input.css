@@ -74,3 +74,15 @@
 .btn-slider {
   @apply rounded-full border border-gray-300 h-5 w-5 flex justify-center items-center text-[12px] hover:bg-main hover:text-white;
 }
+
+.product-buy-btn {
+  @apply bg-main text-white border-2 hover:bg-white hover:text-main hover:border-green-600 h-[35px] px-[24px] py-[1px] rounded-[20px] flex items-center justify-center;
+}
+
+.product-search-btn {
+  @apply hover:text-green-500 hover:bg-white p-1 border-2 rounded-full w-10 h-10;
+}
+
+.product-heart-btn {
+  @apply hover:text-red-600 hover:bg-white p-1 border-2 rounded-full w-10 h-10;
+}
