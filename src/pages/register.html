@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../assets/css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Register</title>
+</head>
+<body class="text-gray-400">
+  <header id="header"></header>
+
+  <main>
+    <div class="container">
+      <form id="formRegister">
+        <h2 class="uppercase text-main font-bold mt-[100px] mb-[30px]"><span data-i18n="register.personal_info"></span></h2>
+        <div class="flex flex-row mb-[30px] md:flex-nowrap flex-wrap">
+          <div class="md:basis-1/2 basis-full md:mr-[50px] mr-0 mb-[30px]">
+            <label class="block">
+              <span data-i18n="register.full_name" class="mb-[10px] after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+              <input type="text" name="fullName" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+            </label>
+            <p data-error="fullName" class="text-sm text-red-600 mt-2 hidden"></p>
+          </div>
+          <div class="md:basis-1/2 basis-full">
+            <label class="block">
+              <span data-i18n="register.phone_number" class="mb-[10px] after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+              <input type="text" name="phoneNumber" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+            </label>
+            <p data-error="phoneNumber" class="text-sm text-red-600 mt-2 hidden"></p>
+          </div>
+        </div>
+        <div class="flex flex-row mb-[30px] md:flex-nowrap flex-wrap">
+          <div class="md:basis-1/2 basis-full md:mr-[50px] mr-0 mb-[30px]">
+            <label class="block">
+              <span data-i18n="register.email_address" class="mb-[10px] after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+              <input type="email" name="email" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+            </label>
+            <p data-error="email" class="text-sm text-red-600 mt-2 hidden"></p>
+          </div>
+          <div class="md:basis-1/2 basis-full">
+            <label class="block">
+              <span data-i18n="register.your_website" class="mb-[10px] after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+              <input type="url" name="webURL" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+            </label>
+            <p data-error="webURL" class="text-sm text-red-600 mt-2 hidden"></p>
+          </div>
+        </div>
+        <div class="flex items-start mb-[50px]">
+          <div class="flex items-center h-5">
+            <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-main rounded bg-gray-50 focus:ring-3 focus:ring-main dark:bg-gray-700 dark:border-main dark:focus:ring-main dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"/>
+          </div>
+          <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"><span data-i18n="register.email_signup"></span></label>
+        </div>
+        <h2 class="uppercase text-main font-bold mt-[100px] mb-[30px]"></h2>
+        <div class="flex flex-row mb-[30px] md:flex-nowrap flex-wrap">
+          <div class="md:basis-1/2 basis-full md:mr-[50px] mr-0 mb-[30px]">
+            <label class="block">
+              <span data-i18n="register.password" class="mb-[10px] after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+              <input type="password" name="password" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+            </label>
+            <p data-error="password" class="text-sm text-red-600 mt-2 hidden"></p>
+          </div>
+          <div class="md:basis-1/2 basis-full">
+            <label class="block">
+              <span data-i18n="register.confirm_password" class="mb-[10px] after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+              <input type="password" name="confirmPassword" class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+            </label>
+            <p data-error="confirmPassword" class="text-sm text-red-600 mt-2 hidden"></p>
+          </div>
+        </div>
+        <div class="flex flex-row">
+          <button type="button" class="hover:text-white hover:bg-main border border-1 border-main px-[30px] py-[10px] bg-white text-main rounded-[30px] uppercase text-[14px] mr-[10px]" onclick="window.location.href='/src/pages/login.html'" ><span data-i18n="register.back"></span></button>
+          <button type="submit" class="hover:text-main hover:bg-white border border-1 border-main px-[30px] py-[10px] bg-main text-white rounded-[30px] uppercase text-[14px]"><span data-i18n="register.title"></span></button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="../../assets/js/header.js"></script>
+  <script src="../../assets/js/footer.js"></script>
+  <script src="../../assets/js/validateFormRegister.js"></script>
+  <script src="../../assets/js/i18n.js"></script>
+</body>
+</html>

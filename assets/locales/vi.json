@@ -94,7 +94,28 @@
   },
   "alert": {
     "login_success": "Đăng nhập thành công !",
+    "register_success": "Đăng ký thành công !",
     "error_email": "Email không hợp lệ",
-    "error_password": "Mật khẩu phải chứa ít nhất 6 ký tự"
+    "error_password": "Mật khẩu phải chứa ít nhất 6 ký tự",
+    "error_fullName": "Họ và tên là bắt buộc.",
+    "error_phoneNumber": "Số điện thoại là bắt buộc.",
+    "error_webURL": "Vui lòng nhập một URL hợp lệ.",
+    "error_confirmPassword": "Mật khẩu không khớp."
+  },
+  "register": {
+    "title": "Đăng ký",
+    "personal_info": "Thông tin cá nhân",
+    "full_name": "Họ và tên",
+    "email_address": "Địa chỉ email",
+    "phone_number": "Số ĐT",
+    "your_website": "Website của bạn",
+    "email_signup": "Đăng ký nhận thông tin qua email",
+    "account_info": "Thông tin tài khoản",
+    "password": "Mật khẩu",
+    "confirm_password": "Nhập lại mật khẩu",
+    "back": "Quay lại"
+  },
+  "list_products": {
+    "buy_now": "MUA NGAY"
   }
 }
