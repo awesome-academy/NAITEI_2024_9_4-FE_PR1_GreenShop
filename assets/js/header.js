@@ -1,4 +1,4 @@
-fetch('../../src/layouts/header.html')
+fetch('/src/layouts/header.html')
   .then(response => response.text())
   .then(data => {
     document.getElementById('header').innerHTML = data;
@@ -14,13 +14,21 @@ const addLanguageSwitchEvents = () => {
   if (langViBtn && langEnBtn) {
     langViBtn.addEventListener('click', () => switchLanguage('vi', langViBtn, langEnBtn));
     langEnBtn.addEventListener('click', () => switchLanguage('en', langEnBtn, langViBtn));
+    const currentLang = getLanguage();
+    if (currentLang === 'vi') {
+      langViBtn.classList.add('text-green-500');
+      langEnBtn.classList.remove('text-green-500');
+    } else if (currentLang === 'en') {
+      langEnBtn.classList.add('text-green-500');
+      langViBtn.classList.remove('text-green-500');
+    }
   } else {
     console.error('Không tìm thấy phần tử với id lang-vi hoặc lang-en');
   }
 }
 
 const switchLanguage = (lang, activeBtn, inactiveBtn) => {
-  localStorage.setItem('lang', lang);
+  setLanguage(lang);
   loadTranslations(lang);
   activeBtn.classList.add('text-green-500');
   inactiveBtn.classList.remove('text-green-500');
