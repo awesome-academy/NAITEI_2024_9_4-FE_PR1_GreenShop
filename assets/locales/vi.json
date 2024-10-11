@@ -74,8 +74,7 @@
     "sitemap": "Sitemap",
     "product_categories": "Danh mục sản phẩm",
     "cooperation": "Hợp tác",
-    "contact_info": "Thông tin liên hệ",
-    "title": "Tin tức"
+    "contact_info": "Thông tin liên hệ"
   },
   "product_catalog": {
     "search_products": "Tìm theo giá",
@@ -117,5 +116,20 @@
   },
   "list_products": {
     "buy_now": "MUA NGAY"
+  },
+  "cart": {
+    "cart": "Giỏ hàng",
+    "image": "Hình ảnh",
+    "product_name": "Tên sản phẩm",
+    "unit_price": "Đơn giá",
+    "quantity": "Số lượng",
+    "total": "Thành tiền",
+    "delete": "Xóa",
+    "cancel_order": "Hủy đơn hàng",
+    "continue_shopping": "Tiếp tục mua",
+    "total_amount": "Tổng tiền (chưa thuế)",
+    "tax": "Thuế (VAT 10%)",
+    "total_to_pay": "Tổng phải thanh toán",
+    "payment": "Thanh toán"
   }
 }
