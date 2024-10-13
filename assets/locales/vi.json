@@ -93,13 +93,15 @@
   },
   "alert": {
     "login_success": "Đăng nhập thành công !",
+    "contact_success": "Gửi yêu cầu liên hệ thành công !",
     "register_success": "Đăng ký thành công !",
     "error_email": "Email không hợp lệ",
     "error_password": "Mật khẩu phải chứa ít nhất 6 ký tự",
     "error_fullName": "Họ và tên là bắt buộc.",
     "error_phoneNumber": "Số điện thoại là bắt buộc.",
     "error_webURL": "Vui lòng nhập một URL hợp lệ.",
-    "error_confirmPassword": "Mật khẩu không khớp."
+    "error_confirmPassword": "Mật khẩu không khớp.",
+    "error_comments": "Bình luận là bắt buộc."
   },
   "register": {
     "title": "Đăng ký",
@@ -146,5 +148,18 @@
     "product_category": "Danh mục sản phẩm",
     "featured_news": "Tin tức nổi bật",
     "blog_tags": "Blog tags"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "contact_info": "Thông tin liên hệ",
+    "full_name": "Họ và Tên",
+    "email_address": "Địa chỉ email",
+    "phone_number": "Số điện thoại",
+    "comments": "Lời nhắn",
+    "send_contact": "Gửi liên hệ",
+    "dkt_intro": "DKT được thành lập với niềm đam mê và khát vọng thành công trong lĩnh vực Thương mại điện tử. Chúng tôi đã và đang khẳng định được vị trí hàng đầu với những sản phẩm."
+  },
+  "product": {
+    "title": "Danh sách sản phẩm"
   }
 }

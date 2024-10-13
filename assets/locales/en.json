@@ -83,13 +83,15 @@
   },
   "alert": {
     "login_success": "Login successful!",
+    "contact_success": "Send contact request successful!",
     "register_success": "Register successful!",
     "error_fullName": "Full name is required.",
     "error_phoneNumber": "Phone number is required.",
     "error_email": "Email must be valid.",
     "error_webURL": "Please enter a valid URL.",
     "error_password": "Password must be at least 6 characters long.",
-    "error_confirmPassword": "Passwords do not match."
+    "error_confirmPassword": "Passwords do not match.",
+    "error_comments": "Comments are required."
   },
   "register": {
     "title": "Register",
@@ -140,5 +142,18 @@
     "product_category": "Product Categories",
     "featured_news": "Featured News",
     "blog_tags": "Blog Tags"
+  },
+  "contact": {
+    "title": "Contact",
+    "contact_info": "Contact Information",
+    "full_name": "Full Name",
+    "email_address": "Email Address",
+    "phone_number": "Phone Number",
+    "comments": "Comments",
+    "send_contact": "Send Contact",
+    "dkt_intro": "DKT was established with passion and the aspiration for success in the field of E-commerce. We have affirmed our leading position with our products."
+  },
+  "product": {
+    "title": "Product list"
   }
 }

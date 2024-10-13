@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/assets/css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Contact</title>
+</head>
+<body class="text-gray-400">
+  <header id="header"></header>
+
+  <main>
+    <div class="container">
+      <div class="my-8" id="breadcrumb"></div>
+    </div>
+    <div class="">
+      <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.906341624145!2d105.81350137539823!3d21.036433187514685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab128d511a8d%3A0x3440d4c5d63f693!2zMjY2IFAuIMSQ4buZaSBD4bqlbiwgTGnhu4V1IEdpYWksIEJhIMSQw6xuaCwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1728460990294!5m2!1svi!2s" class="w-full" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="contact-info py-[30px]">
+        <div class="container">
+          <div class="flex md:flex-row flex-col-reverse md:flex-nowrap flex-wrap">
+            <div class="md:basis-1/2 basis-full mr-[50px]">
+              <h2 class="mb-5 text-main uppercase text-[16px] font-bold tracking-[1px]"><span data-i18n="contact.contact_info"></span></h2>
+              <form id="formContact">
+                <label class="mb-7 block">
+                  <span data-i18n="contact.full_name" class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+                  <input type="text" name="fullName" class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+                  <p data-error="fullName" class="text-sm text-red-600 mt-2 hidden"></p>
+                </label>
+                <label class="mb-7 block">
+                  <span data-i18n="contact.email_address" class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+                  <input type="email" name="email" class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+                  <p data-error="email" class="text-sm text-red-600 mt-2 hidden"></p>
+                </label>
+                <label class="mb-7 block">
+                  <span data-i18n="contact.phone_number" class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+                  <input type="text" name="phoneNumber" class="mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"/>
+                  <p data-error="phoneNumber" class="text-sm text-red-600 mt-2 hidden"></p>
+                </label>
+                <label class="mb-7 block">
+                  <span data-i18n="contact.comments" class="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700"></span>
+                  <textarea name="comments" class="h-48 mt-2 px-3 py-2 bg-white border shadow-sm border-slate-300 focus:outline-none focus:border-main focus:ring-main block w-full rounded-md sm:text-sm focus:ring-1"></textarea>
+                  <p data-error="comments" class="text-sm text-red-600 mt-2 hidden"></p>
+                </label>
+                <button type="submit" class="text-white bg-main px-[30px] py-[10px] rounded-[20px] text-[14px] uppercase border border-main border-1 hover:bg-white hover:text-main"><span data-i18n="contact.send_contact"></span></button>
+              </form>
+            </div>
+            <div class="md:basis-1/2 md:p-[30px] p-0 basis-full mb-[20px]">
+              <img src="/assets/images/logo.webp">
+              <p class="text-[13px] py-[20px]"><span data-i18n="contact.dkt_intro"></span></p>
+              <div class="flex items-center gap-2 mb-[10px]">
+                <div class="text-[15px] text-main">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <span data-i18n="footer.phone"></span>: (84-4) 66.558.868
+              </div>
+              <div class="flex items-center gap-2">
+                  <div class="text-[12px] text-main">
+                      <i class="fas fa-envelope"></i>
+                  </div>
+                  <span>Email: </span> info@dkt.com.vn
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="/assets/js/header.js"></script>
+  <script src="/assets/js/footer.js"></script>
+  <script src="/assets/js/formContact.js"></script>
+  <script src="/assets/js/i18n.js"></script>
+  <script src="/assets/js/breadcrumb.js"></script>
+</body>
+</html>

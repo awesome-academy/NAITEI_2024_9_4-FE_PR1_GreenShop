@@ -2,18 +2,12 @@
 function renderBreadcrumb() {
     const breadcrumbContainer = document.getElementById('breadcrumb'); // Lấy thẻ để chèn breadcrumb
     const currentUrl = window.location.pathname; // Lấy URL hiện tại
-    console.log(currentUrl); 
 
-    let breadcrumbHTML = '';
+    let breadcrumbHTML = `<a href="/src/pages/home.html" class="hover:underline"><span data-i18n="header.home"></span></a> / `;
 
-    // Xác định breadcrumb dựa trên URL
-    if (currentUrl === '/NAITEI_2024_9_4-FE_PR1_GreenShop/src/pages/product.html') {
-        breadcrumbHTML = `
-            <a href="/" class="hover:underline">Home</a> / 
-            <span class="text-green-500">Danh sách sản phẩm</span>
-        `;
-    } 
-
+    // Tạo mảng chứa các breadcrumb
+    const breadcrumbArray = currentUrl.split('/').filter(item => item !== '');
+    breadcrumbHTML += '<a class="hover:underline text-main">' + `<span data-i18n="${breadcrumbArray.pop().replace(/\.html$/, '')}.title"></span>` + '</a>';
     // Chèn breadcrumb vào HTML
     breadcrumbContainer.innerHTML = breadcrumbHTML;
 }
