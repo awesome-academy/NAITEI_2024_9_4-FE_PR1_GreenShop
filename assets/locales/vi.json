@@ -160,6 +160,17 @@
     "dkt_intro": "DKT được thành lập với niềm đam mê và khát vọng thành công trong lĩnh vực Thương mại điện tử. Chúng tôi đã và đang khẳng định được vị trí hàng đầu với những sản phẩm."
   },
   "product": {
-    "title": "Danh sách sản phẩm"
+    "title": "Danh sách sản phẩm",
+    "blog_tags": "Blog tags"
+  },
+  "details_product": {
+    "product_infor": "THÔNG TIN SẢN PHẨM",
+    "customer_review": "KHÁCH HÀNG ĐÁNH GIÁ",
+    "card": "THẺ",
+    "tag": "TAG",
+    "same_product": "Sản phẩm cùng loại"
+  },
+  "detailProduct": {
+    "title": "Cây dạ lam"
   }
 }

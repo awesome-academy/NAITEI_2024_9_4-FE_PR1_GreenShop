@@ -19,6 +19,12 @@
     "search": "Search...",
     "email_placeholder": "Enter your email here ..."
   },
+  "popup": {
+    "popup_title": "Get news from us", 
+    "popup_subtitle": "SIGN UP FOR EMAIL TODAY",
+    "popup_description": "Sign up for email today to receive information about events and discounts from us.",
+    "popup_dont_show_again": "Do not show this message again"
+  },
   "outstanding_products": {
     "title": "Outstanding Products",
     "add_to_cart": "Add to cart"
@@ -155,5 +161,15 @@
   },
   "product": {
     "title": "Product list"
+  }, 
+  "details_product": {
+    "product_infor": "PRODUCT INFORMATION",
+    "customer_review": "CUSTOMER REVIEWS",
+    "card": "CARD",
+    "tag": "TAG",
+    "same_product": "Similar products"
+  },
+  "detailProduct": {
+    "title": "Cây dạ lam"
   }
 }

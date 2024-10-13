@@ -7,7 +7,7 @@ const setLanguage = (lang) => {
  }
 
 const loadTranslations = (lang) =>{
-  fetch(`/assets/locales/${lang}.json`)
+  fetch(`../../assets/locales/${lang}.json`)
     .then(response => response.json())
     .then(translations => {
       document.querySelectorAll('[data-i18n]').forEach(element => {
