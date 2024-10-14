@@ -141,5 +141,10 @@
     "status": "Trạng thái",
     "action": "Hành động",
     "view_detail": "Xem chi tiết"
+  },
+  "news_page": {
+    "product_category": "Danh mục sản phẩm",
+    "featured_news": "Tin tức nổi bật",
+    "blog_tags": "Blog tags"
   }
 }
