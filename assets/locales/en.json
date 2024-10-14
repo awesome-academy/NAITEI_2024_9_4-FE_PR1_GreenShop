@@ -125,5 +125,15 @@
     "tax": "Tax (10% VAT)",
     "total_to_pay": "Total to Pay",
     "payment": "Payment"
+  },
+  "purchase_history": {
+    "title": "Purchase History",
+    "order_id": "Order ID",
+    "order_date": "Order Date",
+    "order_method": "Order Method",
+    "total": "Total",
+    "status": "Status",
+    "action": "Action",
+    "view_detail": "View detail"
   }
 }

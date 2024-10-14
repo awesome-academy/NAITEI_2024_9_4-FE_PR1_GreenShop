@@ -131,5 +131,15 @@
     "tax": "Thuế (VAT 10%)",
     "total_to_pay": "Tổng phải thanh toán",
     "payment": "Thanh toán"
+  },
+  "purchase_history": {
+    "title": "Lịch sử mua hàng",
+    "order_id": "Mã đơn hàng",
+    "order_date": "Ngày đặt hàng",
+    "order_method": "Phương thức thanh toán",
+    "total": "Tổng tiền",
+    "status": "Trạng thái",
+    "action": "Hành động",
+    "view_detail": "Xem chi tiết"
   }
 }

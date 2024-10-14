@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../../assets/css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <title>Lịch sử mua hàng</title>
+</head>
+<body class="text-gray-400">
+  <header id="header"></header>
+
+  <main>
+    <div class="container">
+      <h2 class="pb-[18px] text-[16px] border-b-[1px] border-b-grey-300 border-b font-bold text-main mb-[30px]">
+        <a href="#" class="pt-[10px]"><span data-i18n="purchase_history.title" class="pb-[17px] border-b-[3px] border-b-main border-b">Lịch sử mua hàng</span></a>
+      </h2>
+      <table class="min-w-full border border-gray-300 border-collapse md:text-[16px] text-[10px]">
+        <thead>
+          <tr class="bg-main text-white uppercase">
+            <th class="border border-gray-300 p-2"><span data-i18n="purchase_history.order_id"></span></th>
+            <th class="border border-gray-300 p-2"><span data-i18n="purchase_history.order_date"></span></th>
+            <th class="border border-gray-300 p-2"><span data-i18n="purchase_history.order_method"></span></th>
+            <th class="border border-gray-300 p-2"><span data-i18n="purchase_history.total"></span></th>
+            <th class="border border-gray-300 p-2"><span data-i18n="purchase_history.status"></span></th>
+            <th class="border border-gray-300 p-2"><span data-i18n="purchase_history.action"></span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="text-center">
+            <td class="border border-gray-300 py-4 px-2 w-48">
+              #12345
+            </td>
+            <td class="border border-gray-300 py-4 px-4">01-10-2024</td>
+            <td class="border border-gray-300 py-4 px-2">Ví điện tử (Momo)</td>
+            <td class="border border-gray-300 py-4 px-2">
+              750.000 đ
+            </td>
+            <td class="border border-gray-300 py-4 px-2 text-main">Đã giao</td>
+            <td class="border border-gray-300 py-4 px-2">
+              <button class="text-main">
+                <i class="fas fa-clipboard-list mr-1"></i>
+                <span class="underline">Xem chi tiết</span>
+              </button>
+            </td>
+          </tr>
+          <tr class="text-center">
+            <td class="border border-gray-300 py-4 px-2 w-48">
+              #12346
+            </td>
+            <td class="border border-gray-300 py-4 px-4">01-10-2024</td>
+            <td class="border border-gray-300 py-4 px-2">Ví điện tử (Zalopay)</td>
+            <td class="border border-gray-300 py-4 px-2">
+              750.000 đ
+            </td>
+            <td class="border border-gray-300 py-4 px-2 text-blue-300">Đang xử lý</td>
+            <td class="border border-gray-300 py-4 px-2">
+              <button class="text-main">
+                <i class="fas fa-clipboard-list mr-1"></i>
+                <span class="underline">Xem chi tiết</span>
+              </button>
+            </td>
+          </tr>
+          <tr class="text-center">
+            <td class="border border-gray-300 py-4 px-2 w-48">
+              #12345
+            </td>
+            <td class="border border-gray-300 py-4 px-4">01-10-2024</td>
+            <td class="border border-gray-300 py-4 px-2">Ví điện tử (Momo)</td>
+            <td class="border border-gray-300 py-4 px-2">
+              750.000 đ
+            </td>
+            <td class="border border-gray-300 py-4 px-2 text-red-500">Hủy đơn</td>
+            <td class="border border-gray-300 py-4 px-2">
+              <button class="text-main">
+                <i class="fas fa-clipboard-list mr-1"></i>
+                <span class="underline">Xem chi tiết</span>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer id="footer"></footer>
+
+  <script src="/assets/js/header.js"></script>
+  <script src="/assets/js/footer.js"></script>
+  <script src="/assets/js/i18n.js"></script>
+</body>
+</html>
