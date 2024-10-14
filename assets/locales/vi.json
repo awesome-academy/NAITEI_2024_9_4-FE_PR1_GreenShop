@@ -13,7 +13,9 @@
     "home": "Trang chủ",
     "about": "Giới thiệu",
     "new_products": "Sản phẩm mới",
-    "empty_cart": "Không có sản phẩm nào trong giỏ hàng của bạn"
+    "empty_cart": "Không có sản phẩm nào trong giỏ hàng của bạn",
+    "purchase_history":"Lịch sử mua hàng",
+    "logout":"Đăng xuất"
   },
   "placeholders": {
     "search": "Tìm kiếm",
@@ -93,6 +95,7 @@
   },
   "alert": {
     "login_success": "Đăng nhập thành công !",
+    "login_error": "Email hoặc mật khẩu không chính xác",
     "contact_success": "Gửi yêu cầu liên hệ thành công !",
     "register_success": "Đăng ký thành công !",
     "error_email": "Email không hợp lệ",

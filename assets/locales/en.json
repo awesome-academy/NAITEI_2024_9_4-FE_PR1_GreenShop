@@ -13,7 +13,9 @@
     "home": "Home",
     "about": "About",
     "new_products": "New Products",
-    "empty_cart": "No products in your cart"
+    "empty_cart": "No products in your cart",
+    "purchase_history":"Purchase History",
+    "logout":"Logout"
   },
   "placeholders": {
     "search": "Search...",
@@ -89,6 +91,7 @@
   },
   "alert": {
     "login_success": "Login successful!",
+    "login_error": "Login failed! Please check your email and password.",
     "contact_success": "Send contact request successful!",
     "register_success": "Register successful!",
     "error_fullName": "Full name is required.",

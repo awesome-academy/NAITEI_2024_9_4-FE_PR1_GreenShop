@@ -1,8 +1,3 @@
-const successToast = (toast, right = '20px', opacity = '1') => {
-  toast.style.right = right;
-  toast.style.opacity = opacity;
-};
-
 const validateFormContact = (message) => {
   let isValid = true;
   const fields = [
@@ -74,12 +69,7 @@ document.getElementById('formContact').addEventListener('submit', (e) => {
     .then(translations => {
       const isValid = validateFormContact(translations.alert);
       if (isValid) {
-        const toast = document.getElementById('toast');
-        toast.querySelector('span').textContent = translations.alert.contact_success;
-        successToast(document.getElementById('toast'));
-        setTimeout(() => {
-          successToast(toast, '-300px', '0');
-        }, 3000);
+        showToasts("success",translations.alert.contact_success);
       }
     })
     .catch(error => console.error('Lỗi tải bản dịch:', error));
