@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById('popup-container').innerHTML = data;
 
       // Lấy ngôn ngữ hiện tại từ localStorage hoặc mặc định là 'vi'
-      const currentLang = localStorage.getItem('lang') || 'vi';
+      const currentLang = localStorage.getItem('userLanguage') || 'vi';
 
       // Gọi hàm loadTranslations để dịch các chuỗi văn bản trong popup
       loadTranslations(currentLang);
