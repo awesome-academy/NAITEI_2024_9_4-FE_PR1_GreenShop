@@ -1,7 +1,4 @@
-const successToast = (toast, right = '20px', opacity = '1') => {
-  toast.style.right = right;
-  toast.style.opacity = opacity;
-};
+let data = {};
 
 const validateFormRegister = (message) => {
   let isValid = true;
@@ -12,6 +9,7 @@ const validateFormRegister = (message) => {
         if(value === '') {
           return message[`error_${name}`];
         }
+        data['fullName'] = value;
         return null;
       }
     },
@@ -21,6 +19,7 @@ const validateFormRegister = (message) => {
         if(value === '') {
           return message[`error_${name}`];
         }
+        data['phoneNumber'] = value;
         return null;
       }
     },
@@ -31,6 +30,7 @@ const validateFormRegister = (message) => {
         if (!emailRegex.test(value)) {
           return message[`error_${name}`];
         }
+        data['email'] = value;
         return null;
       }
     },
@@ -41,6 +41,7 @@ const validateFormRegister = (message) => {
         if (!urlRegex.test(value)) {
           return message[`error_${name}`];
         }
+        data['webURL'] = value;
         return null;
       }
     },
@@ -50,6 +51,7 @@ const validateFormRegister = (message) => {
         if(value.length < 6) {
           return message[`error_${name}`];
         }
+        data['password'] = value;
         return null;
       }
     },
@@ -65,6 +67,7 @@ const validateFormRegister = (message) => {
         if (value !== password) {
           return message[`error_${name}`];
         }
+        data['password'] = value;
         return null
       }
     }
@@ -85,21 +88,34 @@ const validateFormRegister = (message) => {
 
   return isValid;
 }
-document.getElementById('formRegister').addEventListener('submit', (e) => {
+document.getElementById('formRegister').addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const currentLang = getLanguage();
+  try {
+    const response = await fetch(`/assets/locales/${currentLang}.json`);
+    const translations = await response.json();
+    const isValid = validateFormRegister(translations.alert);
+    let accounts = JSON.parse(localStorage.getItem('accounts')) || [];
 
-  fetch(`/assets/locales/${currentLang}.json`)
-    .then(response => response.json())
-    .then(translations => {
-      const isValid = validateFormRegister(translations.alert);
-      if (isValid) {
-        successToast(toast);
-        setTimeout(() => {
-          successToast(toast, '-300px', '0');
-        }, 3000);
-      }
-    })
-    .catch(error => console.error('Lỗi tải bản dịch:', error));
+    if (isValid) {
+      const payload = {
+        ...data,
+        exp: Math.floor(Date.now() / 1000) + (60 * 60)
+      };
+
+      data.password = await hashPassword(data.password);
+      const encodeToken = await createJWT(jwtHeader, payload, jwtSecret);
+      sessionStorage.setItem('token', encodeToken);
+      
+      accounts.push({
+        ...data
+      })
+      localStorage.setItem('accounts',JSON.stringify(accounts));
+      window.location.href = '/src/pages/home.html';
+    }
+    data = {};
+  } catch (error) {
+    console.error('Lỗi tải bản dịch:', error)
+  }
 });

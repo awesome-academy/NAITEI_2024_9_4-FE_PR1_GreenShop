@@ -4,6 +4,8 @@ fetch('/src/layouts/header.html')
     document.getElementById('header').innerHTML = data;
     executeHeaderScripts();
     addLanguageSwitchEvents();
+    checkLogin();
+    logout();
   })
   .catch(error => console.error('Error loading header:', error));
 
@@ -69,5 +71,27 @@ executeHeaderScripts = () =>{
       event.preventDefault();
       searchForm.submit();
     }
+  });
+
+  document.getElementById('user-info').addEventListener('click', () => {
+    document.getElementById('user-action').classList.contains('hidden') ? document.getElementById('user-action').classList.remove('hidden') : document.getElementById('user-action').classList.add('hidden');
+  });
+}
+
+const checkLogin = async () => {
+  const token = sessionStorage.getItem('token');
+  if (token) {
+    const user = decodeJWT(token);
+    
+    document.getElementById('login-register').classList.add('hidden');
+    document.getElementById('user-info').classList.remove('hidden');
+    document.getElementById('user-name').textContent = user.fullName;
+  }
+}
+
+const logout = () => {
+  document.getElementById('logout').addEventListener('click', () => {
+    sessionStorage.removeItem('token');
+    window.location.href = '/src/pages/home.html';
   });
 }
