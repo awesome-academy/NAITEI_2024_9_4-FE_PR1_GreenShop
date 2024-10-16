@@ -109,7 +109,8 @@ document.getElementById('formRegister').addEventListener('submit', async (e) => 
       sessionStorage.setItem('token', encodeToken);
       
       accounts.push({
-        ...data
+        ...data,
+        id: accounts.length + 1
       })
       localStorage.setItem('accounts',JSON.stringify(accounts));
       window.location.href = '/src/pages/home.html';

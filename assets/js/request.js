@@ -1,8 +1,26 @@
 const API_DOMAIN = "http://localhost:3000/";
 
-const get = async (path,id) => {
+const get = async (path) => {
   try {
-      const response = await fetch(API_DOMAIN + path + '/' + id);
+      const response = await fetch(API_DOMAIN + path);
+
+      if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(`Error ${response.status}: ${errorText}`);
+      }
+
+      const result = await response.json();
+      return result;
+  } catch (error) {
+      console.error("Fetch error:", error);
+      throw error;
+  }
+};
+
+const getCartByUserId = async (path,userId) => {
+  try {
+      console.log(`${API_DOMAIN}/${path}?userId=${userId}`);
+      const response = await fetch(`${API_DOMAIN}${path}?userId=${userId}`);
 
       if (!response.ok) {
           const errorText = await response.text();

@@ -1,1 +1,474 @@
-{}
+{
+  "vi_products": [
+    {
+      "id": 1,
+      "name": "Cây Dạ Lam",
+      "price": 320000,
+      "discountPercentage": 5,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây để bàn",
+      "color": "Xanh cây",
+      "description": "Cây Dạ Lam là loại cây mang đến vẻ đẹp tự nhiên, thường được sử dụng để trang trí bàn làm việc hoặc không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng."
+    },
+    {
+      "id": 2,
+      "name": "Cây Danh Dự",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây chậu treo",
+      "color": "Đỏ cam",
+      "description": "Cây Danh Dự có hình dáng thanh thoát, lá mọc thẳng và tạo cảm giác sang trọng. Phù hợp làm quà tặng hoặc dùng trong các không gian như phòng khách, phòng làm việc."
+    },
+    {
+      "id": 3,
+      "name": "Cây chân chim",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây có hoa",
+      "color": "Tím",
+      "description": "Cây chân chim mang lại sự tươi mới cho không gian sống, với những chiếc lá xòe rộng như chân chim. Cây dễ trồng và rất thích hợp để trang trí phòng khách hoặc ban công."
+    },
+    {
+      "id": 4,
+      "name": "Cây cỏ ta",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây dây leo",
+      "color": "Xanh trời",
+      "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc."
+    },
+    {
+      "id": 5,
+      "name": "Cây dừa nhỏ",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây để bàn",
+      "color": "Vàng",
+      "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc."
+    },
+    {
+      "id": 6,
+      "name": "Cây dạ búp đỏ",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây có hoa",
+      "color": "Hồng",
+      "description": "Cây dạ búp đỏ với những búp hoa đỏ rực rỡ, là lựa chọn lý tưởng để trang trí nhà cửa hoặc văn phòng. Cây tạo điểm nhấn nổi bật cho không gian sống."
+    },
+    {
+      "id": 7,
+      "name": "Cây Dạ Lam",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây để bàn",
+      "color": "Xanh cây",
+      "description": "Cây Dạ Lam là loại cây mang đến vẻ đẹp tự nhiên, thường được sử dụng để trang trí bàn làm việc hoặc không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng."
+    },
+    {
+      "id": 8,
+      "name": "Cây Danh Dự",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây chậu treo",
+      "color": "Đỏ cam",
+      "description": "Cây Danh Dự có hình dáng thanh thoát, lá mọc thẳng và tạo cảm giác sang trọng. Phù hợp làm quà tặng hoặc dùng trong các không gian như phòng khách, phòng làm việc."
+    },
+    {
+      "id": 9,
+      "name": "Cây chân chim",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây có hoa",
+      "color": "Tím",
+      "description": "Cây chân chim mang lại sự tươi mới cho không gian sống, với những chiếc lá xòe rộng như chân chim. Cây dễ trồng và rất thích hợp để trang trí phòng khách hoặc ban công."
+    },
+    {
+      "id": 10,
+      "name": "Cây cỏ ta",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây dây leo",
+      "color": "Xanh trời",
+      "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc."
+    },
+    {
+      "id": 11,
+      "name": "Cây Dạ Lam",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây để bàn",
+      "color": "Xanh cây",
+      "description": "Cây Dạ Lam là loại cây mang đến vẻ đẹp tự nhiên, thường được sử dụng để trang trí bàn làm việc hoặc không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng."
+    },
+    {
+      "id": 12,
+      "name": "Cây dừa nhỏ",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây để bàn",
+      "color": "Vàng",
+      "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc."
+    }
+  ],
+  "en_products": [
+    {
+      "id": 1,
+      "name": "Dạ Lam Plant",
+      "price": 320000,
+      "discountPercentage": 5,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Desk Plant",
+      "color": "Green",
+      "description": "The Dạ Lam plant brings a natural beauty, often used to decorate work desks or living spaces. It is easy to care for and suitable for various light conditions."
+    },
+    {
+      "id": 2,
+      "name": "Danh Dự Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Hanging Pot Plant",
+      "color": "Red-orange",
+      "description": "The Danh Dự plant has an elegant appearance with straight leaves, creating a luxurious feel. It’s perfect as a gift or for decorating spaces like living rooms or offices."
+    },
+    {
+      "id": 3,
+      "name": "Chân Chim Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Flowering Plant",
+      "color": "Purple",
+      "description": "The Chân Chim plant adds freshness to your living space, with its wide-spread leaves resembling bird feet. It’s easy to grow and ideal for decorating living rooms or balconies."
+    },
+    {
+      "id": 4,
+      "name": "Cỏ Ta Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Climbing Plant",
+      "color": "Sky Blue",
+      "description": "The Cỏ Ta plant, with its lush green leaves, is often used to decorate small spaces or as a hanging plant. It grows quickly and is easy to care for."
+    },
+    {
+      "id": 5,
+      "name": "Small Coconut Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Desk Plant",
+      "color": "Yellow",
+      "description": "The small coconut plant, with its sturdy stem, is perfect for decorating a work desk. It can thrive in low light environments and is easy to care for."
+    },
+    {
+      "id": 6,
+      "name": "Red Bud Dạ Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Flowering Plant",
+      "color": "Pink",
+      "description": "The Red Bud Dạ plant, with its vibrant red buds, is an ideal choice for home or office decoration. It adds a striking highlight to any living space."
+    },
+    {
+      "id": 7,
+      "name": "Dạ Lam Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Desk Plant",
+      "color": "Green",
+      "description": "The Dạ Lam plant brings a natural beauty, often used to decorate work desks or living spaces. It is easy to care for and suitable for various light conditions."
+    },
+    {
+      "id": 8,
+      "name": "Danh Dự Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Hanging Pot Plant",
+      "color": "Red-orange",
+      "description": "The Danh Dự plant has an elegant appearance with straight leaves, creating a luxurious feel. It’s perfect as a gift or for decorating spaces like living rooms or offices."
+    },
+    {
+      "id": 9,
+      "name": "Chân Chim Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Flowering Plant",
+      "color": "Purple",
+      "description": "The Chân Chim plant adds freshness to your living space, with its wide-spread leaves resembling bird feet. It’s easy to grow and ideal for decorating living rooms or balconies."
+    },
+    {
+      "id": 10,
+      "name": "Cỏ Ta Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Climbing Plant",
+      "color": "Sky Blue",
+      "description": "The Cỏ Ta plant, with its lush green leaves, is often used to decorate small spaces or as a hanging plant. It grows quickly and is easy to care for."
+    },
+    {
+      "id": 11,
+      "name": "Dạ Lam Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Desk Plant",
+      "color": "Green",
+      "description": "The Dạ Lam plant brings a natural beauty, often used to decorate work desks or living spaces. It is easy to care for and suitable for various light conditions."
+    },
+    {
+      "id": 12,
+      "name": "Small Coconut Plant",
+      "price": 250000,
+      "discountPercentage": 0,
+      "rating": 5,
+      "images": [
+        "image1.jpg",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Desk Plant",
+      "color": "Yellow",
+      "description": "The small coconut plant, with its sturdy stem, is perfect for decorating a work desk. It can thrive in low light environments and is easy to care for."
+    }
+  ],
+  "carts": [
+    {
+      "listCart": [
+        {
+          "id": 4,
+          "name": "Cây cỏ ta",
+          "price": 250000,
+          "discountPercentage": 0,
+          "rating": 5,
+          "images": [
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg",
+            "image4.jpg"
+          ],
+          "type": "Cây dây leo",
+          "color": "Xanh trời",
+          "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc.",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Cây dừa nhỏ",
+          "price": 250000,
+          "discountPercentage": 0,
+          "rating": 5,
+          "images": [
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg",
+            "image4.jpg"
+          ],
+          "type": "Cây để bàn",
+          "color": "Vàng",
+          "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc.",
+          "quantity": 1
+        }
+      ],
+      "userId": 4,
+      "status": 0,
+      "id": 1
+    },
+    {
+      "listCart": [
+        {
+          "id": 4,
+          "name": "Cây cỏ ta",
+          "price": 250000,
+          "discountPercentage": 0,
+          "rating": 5,
+          "images": [
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg",
+            "image4.jpg"
+          ],
+          "type": "Cây dây leo",
+          "color": "Xanh trời",
+          "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc.",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Cây dừa nhỏ",
+          "price": 250000,
+          "discountPercentage": 0,
+          "rating": 5,
+          "images": [
+            "image1.jpg",
+            "image2.jpg",
+            "image3.jpg",
+            "image4.jpg"
+          ],
+          "type": "Cây để bàn",
+          "color": "Vàng",
+          "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc.",
+          "quantity": 1
+        }
+      ],
+      "userId": 4,
+      "status": 0,
+      "id": 2
+    }
+  ]
+}

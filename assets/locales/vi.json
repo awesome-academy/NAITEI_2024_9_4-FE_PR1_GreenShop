@@ -15,7 +15,9 @@
     "new_products": "Sản phẩm mới",
     "empty_cart": "Không có sản phẩm nào trong giỏ hàng của bạn",
     "purchase_history":"Lịch sử mua hàng",
-    "logout":"Đăng xuất"
+    "logout":"Đăng xuất",
+    "view_cart":"Xem giỏ hàng",
+    "total": "Tổng cộng"
   },
   "placeholders": {
     "search": "Tìm kiếm",
@@ -108,7 +110,8 @@
     "error_phoneNumber": "Số điện thoại là bắt buộc.",
     "error_webURL": "Vui lòng nhập một URL hợp lệ.",
     "error_confirmPassword": "Mật khẩu không khớp.",
-    "error_comments": "Bình luận là bắt buộc."
+    "error_comments": "Bình luận là bắt buộc.",
+    "add_to_cart_success": "Thêm vào giỏ hàng thành công !"
   },
   "register": {
     "title": "Đăng ký",
@@ -185,5 +188,8 @@
   },
   "comments_form": {
     "submit": "Gửi"
+  },
+  "modal": {
+    "quantity": "Số lượng"
   }
 }
