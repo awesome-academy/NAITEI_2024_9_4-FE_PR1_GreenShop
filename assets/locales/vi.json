@@ -19,7 +19,11 @@
   },
   "placeholders": {
     "search": "Tìm kiếm",
-    "email_placeholder": "Nhập email của bạn vào đây ..."
+    "email_placeholder": "Nhập email của bạn vào đây ...",
+    "name": "Họ và tên",
+    "email": "Email",
+    "phone": "phone",
+    "comment": "Bình luận"
   },
   "popup": {
     "popup_title": "Nhận tin tức từ chúng tôi", 
@@ -175,5 +179,11 @@
   },
   "detailProduct": {
     "title": "Cây dạ lam"
+  },
+  "detailNews": {
+    "title": "Cây dạ lam"
+  },
+  "comments_form": {
+    "submit": "Gửi"
   }
 }

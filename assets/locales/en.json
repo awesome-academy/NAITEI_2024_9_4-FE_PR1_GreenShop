@@ -19,7 +19,11 @@
   },
   "placeholders": {
     "search": "Search...",
-    "email_placeholder": "Enter your email here ..."
+    "email_placeholder": "Enter your email here ...",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "phone",
+    "comment": "Comment"
   },
   "popup": {
     "popup_title": "Get news from us", 
@@ -163,7 +167,8 @@
     "dkt_intro": "DKT was established with passion and the aspiration for success in the field of E-commerce. We have affirmed our leading position with our products."
   },
   "product": {
-    "title": "Product list"
+    "title": "Product list",
+    "blog_tags": "Blog tags"
   }, 
   "details_product": {
     "product_infor": "PRODUCT INFORMATION",
@@ -174,5 +179,11 @@
   },
   "detailProduct": {
     "title": "Cây dạ lam"
+  },
+  "detailNews": {
+    "title": "Cây dạ lam"
+  },
+  "comments_form": {
+    "submit": "Submit"
   }
 }
