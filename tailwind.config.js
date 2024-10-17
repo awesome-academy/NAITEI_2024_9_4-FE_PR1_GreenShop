@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./pages/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./pages/**/*.{html,js}","./assets/js/*.js"],
   theme: {
     extend: {
       minWidth: {

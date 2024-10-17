@@ -15,7 +15,9 @@
     "new_products": "New Products",
     "empty_cart": "No products in your cart",
     "purchase_history":"Purchase History",
-    "logout":"Logout"
+    "logout":"Logout",
+    "view_cart":"View Cart",
+    "total": "Total"
   },
   "placeholders": {
     "search": "Search...",
@@ -104,7 +106,8 @@
     "error_webURL": "Please enter a valid URL.",
     "error_password": "Password must be at least 6 characters long.",
     "error_confirmPassword": "Passwords do not match.",
-    "error_comments": "Comments are required."
+    "error_comments": "Comments are required.",
+    "add_to_cart_success": "Add to cart successful!"
   },
   "register": {
     "title": "Register",
@@ -185,5 +188,8 @@
   },
   "comments_form": {
     "submit": "Submit"
+  },
+  "modal": {
+    "quantity": "Quantity"
   }
 }

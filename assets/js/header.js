@@ -4,8 +4,18 @@ fetch('/src/layouts/header.html')
     document.getElementById('header').innerHTML = data;
     executeHeaderScripts();
     addLanguageSwitchEvents();
+    const currentPath = window.location.pathname;
+    if (currentPath.includes('/products') || currentPath === '/src/pages/home.html') {
+      showProducts();
+    }
+    if(currentPath.includes('/cart')) {
+      if(!isLogin()){
+        window.location.href = '/src/pages/login.html';
+      }
+    }
     checkLogin();
     logout();
+    cartHeader();
   })
   .catch(error => console.error('Error loading header:', error));
 
@@ -30,7 +40,11 @@ const addLanguageSwitchEvents = () => {
 }
 
 const switchLanguage = (lang, activeBtn, inactiveBtn) => {
+  const currentPath = window.location.pathname;
   setLanguage(lang);
+  if (currentPath.includes('/products') || currentPath === '/src/pages/home.html') {
+    showProducts();
+  }
   loadTranslations(lang);
   activeBtn.classList.add('text-green-500');
   inactiveBtn.classList.remove('text-green-500');
@@ -90,8 +104,25 @@ const checkLogin = async () => {
 }
 
 const logout = () => {
-  document.getElementById('logout').addEventListener('click', () => {
+  document.getElementById('logout').addEventListener('click', async () => {
+    const newCart = JSON.parse(localStorage.getItem('cart')) || [];
+    const user = decodeJWT(sessionStorage.getItem('token'));
+    let data = {};
     sessionStorage.removeItem('token');
+    console.log(user);
+    if(newCart.length > 0){
+      data = {
+        listCart: newCart,
+        userId: user.id,
+        status: 0
+      }
+      await post('carts', data);
+    }
+    localStorage.removeItem('cart');
     window.location.href = '/src/pages/home.html';
   });
+}
+
+const isLogin = () => {
+  return sessionStorage.getItem('token') ? true : false;
 }

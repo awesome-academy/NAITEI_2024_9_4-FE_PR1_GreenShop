@@ -1,5 +1,8 @@
 {
   "/vi/products": "/vi_products",
-  "/en/products": "/en_products"
+  "/vi/products/:id": "/vi_products/:id",
+  "/vi/products?:_limit": "/vi_products?:_limit",
+  "/en/products": "/en_products",
+  "/en/products?:_limit": "/en_products?:_limit",
+  "/en/products/:id": "/en_products/:id"
 }
-

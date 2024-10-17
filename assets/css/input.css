@@ -48,7 +48,7 @@
 }
 
 .product-detail-btn {
-  @apply bg-white h-[45px] w-[45px] rounded-full;
+  @apply bg-white h-[45px] w-[45px] rounded-full hover:bg-main hover:text-white;
 }
 
 .tag-product {
@@ -85,4 +85,9 @@
 
 .product-heart-btn {
   @apply hover:text-red-600 hover:bg-white p-1 border-2 rounded-full w-10 h-10;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    @apply appearance-none;
 }

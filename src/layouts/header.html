@@ -84,18 +84,14 @@
           </form>
         </div>
       </div>
-      <div class="basis-1/12 flex justify-end mt-[25px] hidden md:block">
-        <div class="group relative flex flex-row items-center gap-5">
-          <a href="../pages/cart.html" class="hover:text-green-500 flex items-center justify-center gap-1"><i
-              class="fas fa-shopping-basket text-[15px]"></i>0 <span data-i18n="header.products"></span></a>
-          <div
-            class="absolute hidden group-hover:block top-[35px] left-[-90px] p-[10px] bg-white text-center min-w-max z-[1]">
-            <div class="flex justify-center">
-              <img src="../../assets/images/shopping-bag.png" alt="cart" class="w-8">
-            </div>
-            <div>
-              <span data-i18n="header.empty_cart"></span>
-            </div>
+      <div class="basis-1/12 flex justify-end mt-[25px] hidden md:block ml-[20px]" id="cart-header">
+        <div class="group relative flex flex-row items-center gap-3">
+          <a href="../pages/cart.html" class="hover:text-green-500 flex items-center justify-center gap-2 text-gray-600">
+            <i class="fas fa-shopping-basket text-[18px]"></i>
+            <span class="cart-count bg-main text-white rounded-full px-2 py-1 text-[12px]" id="quantity-card-header"></span> 
+            <span data-i18n="header.products"></span>
+          </a>
+          <div id="cart-header-content" class="absolute hidden group-hover:block top-[27px] left-[-100px] p-[10px] bg-white text-center shadow-lg rounded-lg min-w-max z-[1]">
           </div>
         </div>
       </div>

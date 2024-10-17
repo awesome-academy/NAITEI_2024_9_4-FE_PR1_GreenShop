@@ -1,7 +1,6 @@
 const getUserByEmail = (email) => {
   const accounts = JSON.parse(localStorage.getItem('accounts')) || [];
   const user = accounts.find(account => account.email === email);
-
   return user;
 }
 
@@ -22,7 +21,6 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
 
   if(isEmailValid && isPasswordValid) {
     const user = getUserByEmail(emailInput.value);
-    console.log(user);
     const currentLang = getLanguage();
     const response = await fetch(`/assets/locales/${currentLang}.json`);
     const translations = await response.json();
@@ -34,6 +32,10 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
         };
         const token = await createJWT(jwtHeader, payload, jwtSecret);
         sessionStorage.setItem('token', token);
+        const cart = await getCartByUserId('carts',user.id);
+        if(cart.length > 0) {
+          localStorage.setItem('cart', JSON.stringify(cart[0].listCart));
+        }
         window.location.href = '/src/pages/home.html';
       } else {
         showToasts('error', translations.alert.login_error);
