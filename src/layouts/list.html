@@ -4,32 +4,26 @@
     <div class="product-card flex">
         <div class="w-1/3 me-4">
             <a href="#" class="">
-                <img class="w-full" src="../../assets/images/spx2-15.png" alt="product-1" />
+                <img class="w-full" src="${product.image}" alt="${product.name}" />
             </a>
         </div>
         <div class="w-3/4 ms-4">
             <h3 class="text-xl mt-3">
-                <a href="#"><span>Cây ngọc ngân</span></a>
+                <a href="#"><span>${product.name}</span></a>
             </h3>
             <div class="flex items-center my-2">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star_m.svg" class="w-4 h-4 me-1" alt="star">
+                ${generateStars(product.rating)}
             </div>
             <div class="relative group mb-3">
                 <span class="line-clamp-2">
-                    Cây Ngọc Ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng "người ấy". Ngọc
-                    ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng
+                    ${product.description}
                 </span>
                 <div class="absolute left-0 bottom-full mb-2 w-max max-w-xs bg-gray-800 text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    Cây Ngọc Ngân là loại cây dành cho tình yêu! Đây là món quà bất ngờ để bạn tặng "người ấy". Ngọc
-                    ngân (Valentine) không chỉ đẹp ở phiến lá xanh đốm trắng
+                    ${product.description}
                 </div>
             </div>
             <div class="mb-2">
-                <span class="discount-price">279.000₫</span>
+                <span class="discount-price">${product.price}₫</span>
             </div>
             <div class="">
                 <div class="flex items-center w-full">

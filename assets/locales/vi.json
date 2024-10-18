@@ -207,5 +207,9 @@
     "status": "Trạng thái",
     "product_list": "Danh sách sản phẩm",
     "total_amount": "Tổng tiền (có thuế 10%)"
+  },
+  "paginations": {
+    "front_page": "Trang trước",
+    "next_page": "Trang sau"
   }
 }
