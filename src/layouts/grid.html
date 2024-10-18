@@ -3,7 +3,7 @@
     <div class=" product-card group">
         <div class="relative">
             <a href="#" class="">
-                <img class="img-product" src="../../assets/images/spx2-15.png" alt="product-1" />
+                <img class="img-product" src="${product.image}" alt="${product.name}" />
             </a>
             <a href="#" class="img-product-hover group-hover:bg-opacity-50">
             </a>
@@ -21,18 +21,14 @@
         </div>
         <div class="product-card-info">
             <h3>
-                <a href="#"><span>Cây dạ lam</span></a>
+                <a href="#"><span>${product.name}</span></a>
             </h3>
             <div class="flex items-center my-2">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star.svg" class="w-4 h-4 me-1" alt="star">
-                <img src="../../assets/images/star_m.svg" class="w-4 h-4 me-1" alt="star">
+                ${generateStars(product.rating)}
             </div>
             <div class="product-card-price">
-                <span class="discount-price">250.000₫</span>
-                <span class="line-through-price">250.000₫</span>
+                <span class="discount-price">${product.price}₫</span>
+                <span class="line-through-price">${product.price}₫</span>
             </div>
         </div>
     </div>
