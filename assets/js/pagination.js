@@ -1,42 +1,31 @@
-// Hàm render pagination
 function renderPagination(totalPages, currentPage) {
-    const paginationContainer = document.getElementById('pagination'); // Lấy thẻ chứa pagination
-
+    const paginationContainer = document.getElementById('pagination'); // Phần tử chứa pagination
     let paginationHTML = '';
 
-    // Tạo nút "Previous" (Trang trước)
-        paginationHTML += `
-            <a href="?page=${currentPage - 1}" class="px-4 py-2 bg-gray-200 hover:bg-gray-300">Trang trước</a>
-        `;
+    // Nút "Trang trước"
+    if (currentPage > 1) {
+        paginationHTML += `<a href="?page=${currentPage - 1}" class="px-4 py-2 bg-gray-200 hover:bg-gray-300">Trang trước</a>`;
+    } else {
+        paginationHTML += `<span class="px-4 py-2 bg-gray-300 cursor-not-allowed">Trang trước</span>`;
+    }
 
-    // Tạo nút số trang
+    // Các nút trang
     for (let i = 1; i <= totalPages; i++) {
         if (i === currentPage) {
-            paginationHTML += `
-                <span class="px-4 py-2 bg-green-500 text-white">${i}</span>
-            `;
+            paginationHTML += `<span class="px-4 py-2 bg-green-500 text-white">${i}</span>`;
         } else {
-            paginationHTML += `
-                <a href="?page=${i}" class="px-4 py-2 bg-gray-200 hover:bg-gray-300">${i}</a>
-            `;
+            paginationHTML += `<a href="?page=${i}" class="px-4 py-2 bg-gray-200 hover:bg-gray-300">${i}</a>`;
         }
     }
 
-    // Tạo nút "Next" (Trang sau)
-        paginationHTML += `
-            <a href="?page=${totalPages}" class="px-4 py-2 bg-gray-200 hover:bg-gray-300">Trang cuối</a>
-        `;
+    // Nút "Trang sau"
+    if (currentPage < totalPages) {
+        paginationHTML += `<a href="?page=${currentPage + 1}" class="px-4 py-2 bg-gray-200 hover:bg-gray-300">Trang sau</a>`;
+    } else {
+        paginationHTML += `<span class="px-4 py-2 bg-gray-300 cursor-not-allowed">Trang sau</span>`;
+    }
 
-    // Chèn pagination vào HTML
-    paginationContainer.innerHTML = paginationHTML;
+    paginationContainer.innerHTML = paginationHTML; // Thêm HTML vào container
 }
 
-// Gọi hàm khi trang tải
-document.addEventListener('DOMContentLoaded', function () {
-    // Ví dụ cho 5 trang và trang hiện tại là trang 2
-    const urlParams = new URLSearchParams(window.location.search);
-    const currentPage = parseInt(urlParams.get('page')) || 1; // Lấy số trang hiện tại từ URL, mặc định là trang 1
-    const totalPages = 4; // Giả định có 5 trang
-
-    renderPagination(totalPages, currentPage);
-});
+export { renderPagination };
