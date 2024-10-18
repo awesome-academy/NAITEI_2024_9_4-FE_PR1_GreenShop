@@ -32,7 +32,7 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
         };
         const token = await createJWT(jwtHeader, payload, jwtSecret);
         sessionStorage.setItem('token', token);
-        const cart = await getCartByUserId('carts',user.id);
+        const cart = await getCartByEmail('carts',user.email);
         if(cart.length > 0) {
           localStorage.setItem('cart', JSON.stringify(cart[0].listCart));
         }

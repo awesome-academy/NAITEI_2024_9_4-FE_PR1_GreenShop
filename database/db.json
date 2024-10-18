@@ -387,88 +387,29 @@
       "description": "The small coconut plant, with its sturdy stem, is perfect for decorating a work desk. It can thrive in low light environments and is easy to care for."
     }
   ],
-  "carts": [
+  "carts": [],
+  "orders": [
     {
+      "email": "nguyenvane@gmail.com",
+      "status": 0,
       "listCart": [
         {
-          "id": 4,
-          "name": "Cây cỏ ta",
-          "price": 250000,
-          "discountPercentage": 0,
-          "rating": 5,
-          "images": [
-            "image1.jpg",
-            "image2.jpg",
-            "image3.jpg",
-            "image4.jpg"
-          ],
-          "type": "Cây dây leo",
-          "color": "Xanh trời",
-          "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc.",
+          "productId": 1,
           "quantity": 1
         },
         {
-          "id": 5,
-          "name": "Cây dừa nhỏ",
-          "price": 250000,
-          "discountPercentage": 0,
-          "rating": 5,
-          "images": [
-            "image1.jpg",
-            "image2.jpg",
-            "image3.jpg",
-            "image4.jpg"
-          ],
-          "type": "Cây để bàn",
-          "color": "Vàng",
-          "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc.",
+          "productId": 4,
+          "quantity": 2
+        },
+        {
+          "productId": 5,
           "quantity": 1
         }
       ],
-      "userId": 4,
-      "status": 0,
+      "method": "cod",
+      "total": 1177000,
+      "date": "2024-10-18T08:30:48.536Z",
       "id": 1
-    },
-    {
-      "listCart": [
-        {
-          "id": 4,
-          "name": "Cây cỏ ta",
-          "price": 250000,
-          "discountPercentage": 0,
-          "rating": 5,
-          "images": [
-            "image1.jpg",
-            "image2.jpg",
-            "image3.jpg",
-            "image4.jpg"
-          ],
-          "type": "Cây dây leo",
-          "color": "Xanh trời",
-          "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc.",
-          "quantity": 1
-        },
-        {
-          "id": 5,
-          "name": "Cây dừa nhỏ",
-          "price": 250000,
-          "discountPercentage": 0,
-          "rating": 5,
-          "images": [
-            "image1.jpg",
-            "image2.jpg",
-            "image3.jpg",
-            "image4.jpg"
-          ],
-          "type": "Cây để bàn",
-          "color": "Vàng",
-          "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc.",
-          "quantity": 1
-        }
-      ],
-      "userId": 4,
-      "status": 0,
-      "id": 2
     }
   ]
 }

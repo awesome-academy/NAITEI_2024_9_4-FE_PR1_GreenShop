@@ -9,26 +9,23 @@ const get = async (path) => {
           throw new Error(`Error ${response.status}: ${errorText}`);
       }
 
-      const result = await response.json();
-      return result;
+      return await response.json();
   } catch (error) {
       console.error("Fetch error:", error);
       throw error;
   }
 };
 
-const getCartByUserId = async (path,userId) => {
+const getCartByEmail = async (path,email) => {
   try {
-      console.log(`${API_DOMAIN}/${path}?userId=${userId}`);
-      const response = await fetch(`${API_DOMAIN}${path}?userId=${userId}`);
+    const response = await fetch(`${API_DOMAIN}${path}?email=${email}`);
 
-      if (!response.ok) {
-          const errorText = await response.text();
-          throw new Error(`Error ${response.status}: ${errorText}`);
-      }
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`Error ${response.status}: ${errorText}`);
+    }
 
-      const result = await response.json();
-      return result;
+    return await response.json();
   } catch (error) {
       console.error("Fetch error:", error);
       throw error;
@@ -44,8 +41,7 @@ const getWithEmail = async (path, email) => {
       throw new Error(`Error ${response.status}: ${errorText}`);
     }
 
-    const result = await response.json();
-    return result;
+    return await response.json();
   } catch (error) {
     console.error("Fetch error:", error);
     throw error;
@@ -68,8 +64,7 @@ const post = async (path, data) => {
       throw new Error(`HTTP error! status: ${response.status}, details: ${JSON.stringify(errorDetails)}`);
     }
 
-    const result = await response.json();
-    return result;
+    return await response.json();
   } catch (error) {
     console.error('Error in POST request:', error);
     throw error;
@@ -89,8 +84,7 @@ const del = async (path, id) => {
       throw new Error(`Error: ${response.status} ${response.statusText} - ${errorText}`);
     }
 
-    const result = await response.json();
-    return result;
+    return await response.json();
   } catch (error) {
     console.error(`Error while deleting resource at ${url}:`, error);
     return { error: error.message };
