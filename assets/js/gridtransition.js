@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const gridViewBtn = document.getElementById('gridViewBtn');
     const listViewBtn = document.getElementById('listViewBtn');
     const productContainer = document.getElementById('productContainer');
+    const clearFiltersBtn = document.getElementById('clearFiltersBtn'); // Added
     loadTranslations(getLanguage());
     const urlParams = new URLSearchParams(window.location.search);
     const currentPage = parseInt(urlParams.get('page')) || 1;
@@ -11,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let selectedType = null;
     let selectedPriceRange = null;
     let selectedColor = null;
-    let currentView = 'grid'; // Biến để theo dõi chế độ hiển thị hiện tại
+    let currentView = 'grid'; // Variable to track current view mode
 
     function fetchProducts() {
         const currentLanguage = localStorage.getItem('userLanguage') || 'vi';
@@ -27,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showGridView(page = 1, limit = 9) {
         fetchProducts().then(products => {
-            let filteredProducts = applyFilters(products); // Lọc sản phẩm từ tổng số sản phẩm
+            let filteredProducts = applyFilters(products); // Filter products
             const totalPages = Math.ceil(filteredProducts.length / limit);
             const paginatedProducts = filteredProducts.slice((page - 1) * limit, page * limit);
 
@@ -53,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     </div>
                     <div class="product-card-info">
                         <h3>
-                            <a href="#"><span>${product.name}</span></a>
+                            <a href="/src/pages/detailProduct.html?id=${product.id}"><span>${product.name}</span></a>
                         </h3>
                         <div class="flex items-center">
                             ${generateStars(product.rating)}
@@ -76,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function showListView(page = 1, limit = 9) {
         fetchProducts().then(products => {
-            let filteredProducts = applyFilters(products); // Lọc sản phẩm từ tổng số sản phẩm
+            let filteredProducts = applyFilters(products); // Filter products
             const totalPages = Math.ceil(filteredProducts.length / limit);
             const paginatedProducts = filteredProducts.slice((page - 1) * limit, page * limit);
 
@@ -157,85 +158,124 @@ document.addEventListener('DOMContentLoaded', function () {
         return stars;
     }
 
-    // Mặc định hiển thị Grid
+    // Default view
     showGridView(currentPage);
 
+    // View toggle buttons
     gridViewBtn.addEventListener('click', () => {
-        currentView = 'grid'; // Cập nhật chế độ hiển thị
+        currentView = 'grid'; // Update view mode
         showGridView(currentPage);
     });
     
     listViewBtn.addEventListener('click', () => {
-        currentView = 'list'; // Cập nhật chế độ hiển thị
+        currentView = 'list'; // Update view mode
         showListView(currentPage);
     });
 
+    // Filter Type Buttons
     document.querySelectorAll('.filter-type').forEach(item => {
         item.addEventListener('click', function (event) {
             event.preventDefault();
             selectedType = this.getAttribute('data-filter-type');
-            const urlParams = new URLSearchParams();
+            const urlParams = new URLSearchParams(window.location.search);
             urlParams.set('type', selectedType);
-            window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`); // Xóa các bộ lọc cũ và thêm bộ lọc mới
-            
-            // Cập nhật UI
+            // Preserve existing query parameters
+            if (selectedPriceRange) urlParams.set('price', selectedPriceRange);
+            if (selectedColor) urlParams.set('color', selectedColor);
+            window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);
+
+            // Update UI
             document.querySelectorAll('.filter-type').forEach(filter => {
                 filter.classList.remove('active');
             });
             this.classList.add('active');
 
-            // Hiển thị sản phẩm theo chế độ hiện tại
+            // Display products based on current view
             if (currentView === 'grid') {
-                showGridView(1); // Chuyển đến trang 1 khi áp dụng bộ lọc
+                showGridView(1); // Go to page 1 when applying filter
             } else {
-                showListView(1); // Chuyển đến trang 1 khi áp dụng bộ lọc
+                showListView(1); // Go to page 1 when applying filter
             }
         });
     });
 
+    // Filter Price Buttons
     document.querySelectorAll('.filter-price').forEach(item => {
         item.addEventListener('click', function (event) {
             event.preventDefault();
             selectedPriceRange = this.getAttribute('data-filter-price');
-            const urlParams = new URLSearchParams();
+            const urlParams = new URLSearchParams(window.location.search);
             urlParams.set('price', selectedPriceRange);
-            window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`); // Xóa các bộ lọc cũ và thêm bộ lọc mới
-            
-            // Cập nhật UI
+            // Preserve existing query parameters
+            if (selectedType) urlParams.set('type', selectedType);
+            if (selectedColor) urlParams.set('color', selectedColor);
+            window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);
+
+            // Update UI
             document.querySelectorAll('.filter-price').forEach(filter => {
                 filter.classList.remove('active');
             });
             this.classList.add('active');
 
-            // Hiển thị sản phẩm theo chế độ hiện tại
+            // Display products based on current view
             if (currentView === 'grid') {
-                showGridView(1); // Chuyển đến trang 1 khi áp dụng bộ lọc
+                showGridView(1); // Go to page 1 when applying filter
             } else {
-                showListView(1); // Chuyển đến trang 1 khi áp dụng bộ lọc
+                showListView(1); // Go to page 1 when applying filter
             }
         });
     });
 
+    // Filter Color Buttons
     document.querySelectorAll('.filter-color').forEach(item => {
         item.addEventListener('click', function (event) {
             event.preventDefault();
             selectedColor = this.getAttribute('data-filter-color');
-            const urlParams = new URLSearchParams();
+            const urlParams = new URLSearchParams(window.location.search);
             urlParams.set('color', selectedColor);
-            window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`); // Xóa các bộ lọc cũ và thêm bộ lọc mới
-            
-            // Cập nhật UI
+            // Preserve existing query parameters
+            if (selectedType) urlParams.set('type', selectedType);
+            if (selectedPriceRange) urlParams.set('price', selectedPriceRange);
+            window.history.replaceState({}, '', `${window.location.pathname}?${urlParams}`);
+
+            // Update UI
             document.querySelectorAll('.filter-color').forEach(filter => {
                 filter.classList.remove('active');
             });
             this.classList.add('active');
 
-            // Hiển thị sản phẩm theo chế độ hiện tại
+            // Display products based on current view
             if (currentView === 'grid') {
-                showGridView(1); // Chuyển đến trang 1 khi áp dụng bộ lọc
+                showGridView(1); // Go to page 1 when applying filter
             } else {
-                showListView(1); // Chuyển đến trang 1 khi áp dụng bộ lọc
+                showListView(1); // Go to page 1 when applying filter
             }
         });
+    });
+
+    // Clear All Filters Button Functionality
+    clearFiltersBtn.addEventListener('click', function () {
+        // Reset all selected filters
+        selectedType = null;
+        selectedPriceRange = null;
+        selectedColor = null;
+
+        // Remove 'active' class from all filter buttons
+        document.querySelectorAll('.filter-type').forEach(filter => filter.classList.remove('active'));
+        document.querySelectorAll('.filter-price').forEach(filter => filter.classList.remove('active'));
+        document.querySelectorAll('.filter-color').forEach(filter => filter.classList.remove('active'));
+
+        // Update the URL to remove all filter query parameters
+        window.history.replaceState({}, '', `${window.location.pathname}`);
+
+        // Reload the products based on the current view and reset to page 1
+        if (currentView === 'grid') {
+            showGridView(1);
+        } else {
+            showListView(1);
+        }
+
+        // Optionally, you can also clear any other UI elements related to filters
+        // For example, reset dropdowns or input fields if any
     });
 });

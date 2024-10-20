@@ -207,5 +207,9 @@
     "status": "Status",
     "product_list": "Product List",
     "total_amount": "Total Amount (including 10% tax)"
+  },
+  "paginations": {
+    "front_page": "Front page",
+    "next_page": "Next page"
   }
 }
