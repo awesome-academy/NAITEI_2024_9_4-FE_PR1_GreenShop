@@ -8,14 +8,20 @@
       "rating": 5,
       "image": "../../assets/images/spx2-15.png",
       "images": [
-        "image1.jpg",
+        "spx2-15.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
       "color": "Xanh cây",
-      "description": "Cây Dạ Lam là loại cây mang đến vẻ đẹp tự nhiên, thường được sử dụng để trang trí bàn làm việc hoặc không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng."
+      "description": "Cây Dạ Lam là loại cây mang đến vẻ đẹp tự nhiên, thường được sử dụng để trang trí bàn làm việc hoặc không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng.",
+      "commonName": "Dạ lam, Huỳnh tinh cảnh, Dong vằn.",
+      "scientificName": "Calathea zebrina",
+      "plantFamily": "Marantaceae (Củ dong).",
+      "height": "0.8-1.2m",
+      "origin": "Cây dạ lam có nguồn gốc từ Brazil, được du nhập và phân bố rộng khắp ở Việt Nam.",
+      "describe": "Cây mọc thành bụi thưa, thân vươn thẳng với chiều cao cây trung bình từ 0,8-1,2m. Lá hình trứng, mép lá nguyên, gân lá nổi rõ, phiến rộng khoảng từ 15-20cm. Lá có màu xanh đậm ở mặt trên, quanh gân lá có màu trắng sữa; mặt dưới lá nhạt màu hơn. Lá cây dạ lam mọc cách, cuống lá dài khi rụng để lại các khía màu nâu nhạt. Cây dạ lam thuộc loại cây chịu bóng bán phần hoặc hoàn toàn, nhu cầu nước tương đối cao. Cây được nhân giống từ tách bụi, cây mọc khỏe, tốc độ sinh trưởng nhanh với sức sống mạnh. Đây là loại cây có dáng đẹp, màu lá mướt mát, tươi khỏe, cây rất phù hợp trồng trang trí nội thất-văn phòng. Ngoài ra, cây còn có đặc điểm lọc khí, làm xanh mát môi trường, giúp điều hòa không khí, đặc biệt tốt cho những môi trường thường xuyên sử dụng các loại máy móc tăng nhiệt. Có thể bày cây ở hành lang hay ở giữa sảnh, đặt ở cạnh bàn làm việc hoặc trang trí các góc phòng có diện tích trung bình."
     },
     {
       "id": 2,
@@ -25,14 +31,20 @@
       "rating": 5,
       "image": "../../assets/images/spx2-2.png",
       "images": [
-        "image1.jpg",
+        "spx2-14.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây chậu treo",
       "color": "Đỏ cam",
-      "description": "Cây Danh Dự có hình dáng thanh thoát, lá mọc thẳng và tạo cảm giác sang trọng. Phù hợp làm quà tặng hoặc dùng trong các không gian như phòng khách, phòng làm việc."
+      "description": "Cây Danh Dự có hình dáng thanh thoát, lá mọc thẳng và tạo cảm giác sang trọng. Phù hợp làm quà tặng hoặc dùng trong các không gian như phòng khách, phòng làm việc.",
+      "commonName": "Danh Dự",
+      "scientificName": "Zamia furfuracea",
+      "plantFamily": "Zamiaceae",
+      "height": "0.5-1m",
+      "origin": "Có nguồn gốc từ vùng nhiệt đới châu Mỹ.",
+      "describe": "Cây Danh Dự có thân ngắn, lá hình lưỡi mác mọc đối xứng hai bên. Cây dễ chăm sóc và thích hợp với nhiều điều kiện ánh sáng khác nhau. Cây còn có tác dụng làm sạch không khí, tạo cảm giác thư thái cho không gian sống."
     },
     {
       "id": 3,
@@ -42,14 +54,20 @@
       "rating": 5,
       "image": "../../assets/images/spx2-2.png",
       "images": [
-        "image1.jpg",
+        "spx2-13.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây có hoa",
       "color": "Tím",
-      "description": "Cây chân chim mang lại sự tươi mới cho không gian sống, với những chiếc lá xòe rộng như chân chim. Cây dễ trồng và rất thích hợp để trang trí phòng khách hoặc ban công."
+      "description": "Cây chân chim mang lại sự tươi mới cho không gian sống, với những chiếc lá xòe rộng như chân chim. Cây dễ trồng và rất thích hợp để trang trí phòng khách hoặc ban công.",
+      "commonName": "Cây chân chim",
+      "scientificName": "Schefflera arboricola",
+      "plantFamily": "Araliaceae",
+      "height": "1-2m",
+      "origin": "Xuất xứ từ Đông Nam Á.",
+      "describe": "Cây chân chim là loại cây thân thảo, lá dạng kép chân vịt. Cây có khả năng chịu hạn tốt và không đòi hỏi nhiều công chăm sóc. Ngoài ra, cây còn giúp cải thiện chất lượng không khí trong nhà."
     },
     {
       "id": 4,
@@ -59,14 +77,20 @@
       "rating": 5,
       "image": "../../assets/images/spx2-2.png",
       "images": [
-        "image1.jpg",
+        "spx2-12.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây dây leo",
       "color": "Xanh trời",
-      "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc."
+      "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc.",
+      "commonName": "Cỏ ta",
+      "scientificName": "Pilea microphylla",
+      "plantFamily": "Urticaceae",
+      "height": "0.2-0.5m",
+      "origin": "Xuất xứ từ vùng nhiệt đới châu Mỹ.",
+      "describe": "Cây cỏ ta là loại cây thân thảo nhỏ, có khả năng sinh trưởng mạnh mẽ. Lá nhỏ màu xanh sáng, cây dễ phát triển trong môi trường nhiều ánh sáng nhưng cũng chịu được bóng râm. Đây là lựa chọn lý tưởng cho việc trang trí không gian nhỏ."
     },
     {
       "id": 5,
@@ -76,14 +100,20 @@
       "rating": 5,
       "image": "../../assets/images/spx2-2.png",
       "images": [
-        "image1.jpg",
+        "spx2-11.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
       "color": "Vàng",
-      "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc."
+      "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc.",
+      "commonName": "Dừa nhỏ",
+      "scientificName": "Cocos nucifera",
+      "plantFamily": "Arecaceae",
+      "height": "0.5-1.5m",
+      "origin": "Xuất xứ từ các vùng nhiệt đới.",
+      "describe": "Cây dừa nhỏ có thân cây dày và chắc, lá dạng lông chim. Cây dễ trồng và thích hợp với không gian trong nhà, văn phòng, đặc biệt là nơi có ánh sáng yếu. Cây còn mang lại cảm giác nhiệt đới và sự tươi mát cho không gian."
     },
     {
       "id": 6,
@@ -93,116 +123,388 @@
       "rating": 5,
       "image": "../../assets/images/spx2-2.png",
       "images": [
-        "image1.jpg",
+        "spx2-10.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây có hoa",
       "color": "Hồng",
-      "description": "Cây dạ búp đỏ với những búp hoa đỏ rực rỡ, là lựa chọn lý tưởng để trang trí nhà cửa hoặc văn phòng. Cây tạo điểm nhấn nổi bật cho không gian sống."
+      "description": "Cây dạ búp đỏ với những búp hoa đỏ rực rỡ, là lựa chọn lý tưởng để trang trí nhà cửa hoặc văn phòng. Cây tạo điểm nhấn nổi bật cho không gian sống.",
+      "commonName": "Dạ búp đỏ",
+      "scientificName": "Anthurium andraeanum",
+      "plantFamily": "Araceae",
+      "height": "0.5-1m",
+      "origin": "Xuất xứ từ Colombia và Ecuador.",
+      "describe": "Cây dạ búp đỏ có lá hình trái tim, hoa màu đỏ rực. Cây cần ánh sáng gián tiếp và đất giữ ẩm tốt. Thích hợp để trang trí phòng khách và văn phòng, tạo điểm nhấn với sắc đỏ tươi sáng."
     },
     {
       "id": 7,
-      "name": "Cây Dạ Lam",
+      "name": "Cây Dạ Lam 2",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-9.png",
       "images": [
-        "image1.jpg",
+        "spx2-9.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
       "color": "Xanh cây",
-      "description": "Cây Dạ Lam là loại cây mang đến vẻ đẹp tự nhiên, thường được sử dụng để trang trí bàn làm việc hoặc không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng."
+      "description": "Cây Dạ Lam 2 là phiên bản cải tiến với lá dày dặn hơn, mang lại vẻ đẹp tự nhiên và dễ chăm sóc hơn. Phù hợp để trang trí bàn làm việc hoặc không gian sống.",
+      "commonName": "Dạ lam",
+      "scientificName": "Calathea zebrina",
+      "plantFamily": "Marantaceae",
+      "height": "0.8-1.2m",
+      "origin": "Brazil",
+      "describe": "Cây dễ chăm sóc, phát triển nhanh trong điều kiện bóng râm. Lá có màu xanh đậm với các sọc trắng, tạo nên vẻ đẹp nổi bật cho không gian nội thất."
     },
     {
       "id": 8,
-      "name": "Cây Danh Dự",
+      "name": "Cây Danh Dự 2",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-8.png",
       "images": [
-        "image1.jpg",
+        "spx2-8.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây chậu treo",
       "color": "Đỏ cam",
-      "description": "Cây Danh Dự có hình dáng thanh thoát, lá mọc thẳng và tạo cảm giác sang trọng. Phù hợp làm quà tặng hoặc dùng trong các không gian như phòng khách, phòng làm việc."
+      "description": "Cây Danh Dự 2 có hình dáng thanh thoát hơn với lá dày dặn, tạo cảm giác sang trọng và hiện đại. Phù hợp làm quà tặng hoặc dùng trong các không gian như phòng khách, phòng làm việc.",
+      "commonName": "Danh Dự",
+      "scientificName": "Zamia furfuracea",
+      "plantFamily": "Zamiaceae",
+      "height": "0.5-1m",
+      "origin": "Vùng nhiệt đới châu Mỹ.",
+      "describe": "Lá cây mỏng, bóng, và mọc thẳng đứng. Cây dễ chăm sóc, thích hợp với nhiều loại đất và ánh sáng, từ bóng râm đến nắng nhẹ."
     },
     {
       "id": 9,
-      "name": "Cây chân chim",
+      "name": "Cây chân chim 2",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-7.png",
       "images": [
-        "image1.jpg",
+        "spx2-7.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây có hoa",
       "color": "Tím",
-      "description": "Cây chân chim mang lại sự tươi mới cho không gian sống, với những chiếc lá xòe rộng như chân chim. Cây dễ trồng và rất thích hợp để trang trí phòng khách hoặc ban công."
+      "description": "Cây chân chim 2 mang lại sự tươi mới và thẩm mỹ cao cho không gian sống, với những chiếc lá xòe rộng như chân chim. Cây dễ trồng và rất thích hợp để trang trí phòng khách hoặc ban công.",
+      "commonName": "Cây chân chim",
+      "scientificName": "Schefflera arboricola",
+      "plantFamily": "Araliaceae",
+      "height": "1-2m",
+      "origin": "Đông Nam Á.",
+      "describe": "Cây có sức sống mạnh, lá tỏa ra nhiều nhánh như chân chim. Thích hợp với ánh sáng gián tiếp và đất thoát nước tốt."
     },
     {
       "id": 10,
-      "name": "Cây cỏ ta",
+      "name": "Cây cỏ ta 2",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-12.png",
+      "image": "../../assets/images/spx2-6.png",
       "images": [
-        "image1.jpg",
+        "spx2-6.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây dây leo",
       "color": "Xanh trời",
-      "description": "Cây cỏ ta với lá xanh mướt, thường được sử dụng để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây phát triển nhanh và dễ chăm sóc."
+      "description": "Cây cỏ ta 2 với lá xanh mướt và khả năng phát triển nhanh, thích hợp để trang trí các không gian nhỏ hoặc dùng làm cây treo. Cây dễ chăm sóc và duy trì hình dáng đẹp.",
+      "commonName": "Cỏ ta",
+      "scientificName": "Pilea microphylla",
+      "plantFamily": "Urticaceae",
+      "height": "0.2-0.5m",
+      "origin": "Vùng nhiệt đới châu Mỹ.",
+      "describe": "Cây nhỏ, phát triển nhanh, thích hợp làm cây trang trí. Lá nhỏ màu xanh sáng, dễ chịu với nhiều loại ánh sáng."
     },
     {
       "id": 11,
-      "name": "Cây Dạ Lam",
+      "name": "Cây Dạ Lam 3",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-12.png",
+      "image": "../../assets/images/spx2-5.png",
       "images": [
-        "image1.jpg",
+        "spx2-5.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
       "color": "Xanh cây",
-      "description": "Cây Dạ Lam là loại cây mang đến vẻ đẹp tự nhiên, thường được sử dụng để trang trí bàn làm việc hoặc không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng."
+      "description": "Cây Dạ Lam 3 là phiên bản cuối cùng trong bộ sưu tập, mang đến sự phong phú với các lá màu xanh đậm và dáng cây hoàn hảo. Phù hợp để trang trí bàn làm việc hoặc không gian sống.",
+      "commonName": "Dạ lam",
+      "scientificName": "Calathea zebrina",
+      "plantFamily": "Marantaceae",
+      "height": "0.8-1.2m",
+      "origin": "Brazil",
+      "describe": "Cây dễ chăm sóc, phát triển nhanh trong điều kiện bóng râm. Lá có màu xanh đậm với các sọc trắng, tạo nên vẻ đẹp nổi bật cho không gian nội thất."
     },
     {
       "id": 12,
-      "name": "Cây dừa nhỏ",
+      "name": "Cây dừa nhỏ 2",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-12.png",
+      "image": "../../assets/images/spx2-4.png",
       "images": [
-        "image1.jpg",
+        "spx2-4.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
       "color": "Vàng",
-      "description": "Cây dừa nhỏ với thân cây chắc khỏe, rất phù hợp để trang trí trên bàn làm việc. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc."
+      "description": "Cây dừa nhỏ 2 với thân cây chắc khỏe và lá dạng lông chim, tạo nên vẻ đẹp thanh lịch và dễ chịu cho không gian nội thất. Cây có thể sống trong môi trường ánh sáng yếu và dễ chăm sóc.",
+      "commonName": "Dừa nhỏ",
+      "scientificName": "Cocos nucifera",
+      "plantFamily": "Arecaceae",
+      "height": "0.5-1.5m",
+      "origin": "Vùng nhiệt đới.",
+      "describe": "Cây dễ chăm sóc, thích hợp cho không gian nội thất. Thân cây dày và chắc chắn, lá xanh mướt, tạo cảm giác nhiệt đới và tươi mới."
+    },
+    {
+      "id": 13,
+      "name": "Cây Kim Ngân",
+      "price": 280000,
+      "discountPercentage": 10,
+      "rating": 4,
+      "image": "../../assets/images/spx2-16.png",
+      "images": [
+        "spx2-3.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "Cây Kim Ngân mang lại không gian xanh mát và dễ chịu, thích hợp để trang trí phòng ngủ hoặc phòng khách. Cây chịu bóng tốt và không đòi hỏi nhiều chăm sóc.",
+      "commonName": "Kim Ngân",
+      "scientificName": "Aglaonema commutatum",
+      "plantFamily": "Araceae",
+      "height": "0.6-1m",
+      "origin": "Xuất xứ từ Đông Nam Á.",
+      "describe": "Cây Kim Ngân có lá xanh mướt với các vệt trắng hoặc vàng, tạo nên vẻ đẹp thanh lịch. Cây chịu được điều kiện ánh sáng yếu và yêu cầu tưới nước vừa phải."
+    },
+    {
+      "id": 14,
+      "name": "Cây Sen đá",
+      "price": 200000,
+      "discountPercentage": 0,
+      "rating": 4,
+      "image": "../../assets/images/spx2-17.png",
+      "images": [
+        "spx2-2.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Đỏ",
+      "description": "Cây Sen đá là loại cây cảnh độc đáo với hình dáng giống hoa sen. Cây thích hợp để trang trí bàn làm việc hoặc kệ sách, dễ chăm sóc và không đòi hỏi nhiều nước.",
+      "commonName": "Sen đá",
+      "scientificName": "Aechmea fasciata",
+      "plantFamily": "Bromeliaceae",
+      "height": "0.3-0.6m",
+      "origin": "Xuất xứ từ Nam Mỹ.",
+      "describe": "Cây Sen đá có lá dày, màu xanh đậm với các sọc trắng. Hoa sen đá nở vào mùa hè với màu đỏ tươi, tạo điểm nhấn cho không gian trang trí."
+    },
+    {
+      "id": 15,
+      "name": "Cây Lưỡi Hổ",
+      "price": 350000,
+      "discountPercentage": 15,
+      "rating": 5,
+      "image": "../../assets/images/spx2-18.png",
+      "images": [
+        "spx2-1.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây nội thất",
+      "color": "Xanh lá",
+      "description": "Cây Lưỡi Hổ với lá dài và vằn đẹp, mang lại vẻ đẹp hiện đại và sang trọng cho không gian sống. Cây dễ chăm sóc và phù hợp với nhiều loại ánh sáng.",
+      "commonName": "Lưỡi Hổ",
+      "scientificName": "Sansevieria trifasciata",
+      "plantFamily": "Asparagaceae",
+      "height": "0.5-1.5m",
+      "origin": "Xuất xứ từ châu Phi.",
+      "describe": "Cây Lưỡi Hổ có lá dày, cứng và mọc thẳng đứng. Lá có vằn xanh và vàng, giúp lọc không khí và tạo điểm nhấn cho không gian nội thất."
+    },
+    {
+      "id": 16,
+      "name": "Cây Xương Rồng",
+      "price": 180000,
+      "discountPercentage": 0,
+      "rating": 4,
+      "image": "../../assets/images/spx2-19.png",
+      "images": [
+        "spx2-15.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "Cây Xương Rồng là loại cây chịu hạn, thích hợp để trang trí văn phòng hoặc nhà kính. Cây không đòi hỏi nhiều nước và dễ chăm sóc.",
+      "commonName": "Xương Rồng",
+      "scientificName": "Echinocactus grusonii",
+      "plantFamily": "Cactaceae",
+      "height": "0.3-0.7m",
+      "origin": "Xuất xứ từ sa mạc Mexico.",
+      "describe": "Cây Xương Rồng có hình dáng tròn, với nhiều gai sắc nhọn. Cây thích hợp với ánh sáng trực tiếp và đất thoát nước tốt."
+    },
+    {
+      "id": 17,
+      "name": "Cây Thảo Mộc",
+      "price": 150000,
+      "discountPercentage": 5,
+      "rating": 4,
+      "image": "../../assets/images/spx2-20.png",
+      "images": [
+        "spx2-14.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "Cây Thảo Mộc không chỉ mang lại vẻ xanh mát mà còn có thể sử dụng trong nấu ăn hoặc làm thuốc. Cây dễ chăm sóc và thích hợp với nhiều loại đất.",
+      "commonName": "Thảo Mộc",
+      "scientificName": "Ocimum basilicum",
+      "plantFamily": "Lamiaceae",
+      "height": "0.3-0.6m",
+      "origin": "Xuất xứ từ Ấn Độ.",
+      "describe": "Cây Thảo Mộc có lá xanh tươi, mùi thơm đặc trưng. Cây cần ánh sáng đầy đủ và tưới nước đều đặn để phát triển tốt."
+    },
+    {
+      "id": 18,
+      "name": "Cây Lan Ý",
+      "price": 300000,
+      "discountPercentage": 20,
+      "rating": 5,
+      "image": "../../assets/images/spx2-21.png",
+      "images": [
+        "spx2-13.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây có hoa",
+      "color": "Tím",
+      "description": "Cây Lan Ý với những bông hoa xinh đẹp, thích hợp để trang trí nhà cửa hoặc làm quà tặng. Cây cần ánh sáng gián tiếp và đất giữ ẩm tốt.",
+      "commonName": "Lan Ý",
+      "scientificName": "Phalaenopsis amabilis",
+      "plantFamily": "Orchidaceae",
+      "height": "0.4-0.8m",
+      "origin": "Xuất xứ từ Đông Nam Á.",
+      "describe": "Cây Lan Ý có hoa màu tím nhẹ nhàng, bền lâu và dễ chăm sóc. Cây thích hợp để trồng trong chậu treo hoặc kệ sách."
+    },
+    {
+      "id": 19,
+      "name": "Cây Lộc Vừng",
+      "price": 220000,
+      "discountPercentage": 10,
+      "rating": 4,
+      "image": "../../assets/images/spx2-22.png",
+      "images": [
+        "spx2-12.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây may mắn",
+      "color": "Xanh lá",
+      "description": "Cây Lộc Vừng là loại cây phong thủy mang lại may mắn và thịnh vượng. Cây dễ chăm sóc và thích hợp để trang trí bàn làm việc hoặc nhà cửa.",
+      "commonName": "Lộc Vừng",
+      "scientificName": "Dracaena sanderiana",
+      "plantFamily": "Asparagaceae",
+      "height": "0.5-1m",
+      "origin": "Xuất xứ từ Châu Phi.",
+      "describe": "Cây Lộc Vừng có thân dài và lá xanh mướt, dễ phát triển trong nước hoặc đất. Cây cần ánh sáng gián tiếp và tưới nước đều đặn."
+    },
+    {
+      "id": 20,
+      "name": "Cây Trầu Bà",
+      "price": 160000,
+      "discountPercentage": 0,
+      "rating": 4,
+      "image": "../../assets/images/spx2-23.png",
+      "images": [
+        "spx2-11.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "Cây Trầu Bà với lá xanh bóng, tạo cảm giác thư giãn và dễ chịu cho không gian sống. Cây dễ chăm sóc và thích hợp với nhiều loại ánh sáng.",
+      "commonName": "Trầu Bà",
+      "scientificName": "Epipremnum aureum",
+      "plantFamily": "Araceae",
+      "height": "1-2m",
+      "origin": "Xuất xứ từ Đông Nam Á.",
+      "describe": "Cây Trầu Bà có lá xanh với các sọc vàng hoặc trắng, dễ leo và thích hợp để treo hoặc để ở góc phòng. Cây giúp lọc không khí và tạo không gian xanh mát."
+    },
+    {
+      "id": 21,
+      "name": "Cây Chuối Non",
+      "price": 270000,
+      "discountPercentage": 10,
+      "rating": 5,
+      "image": "../../assets/images/spx2-24.png",
+      "images": [
+        "spx2-10.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "Cây Chuối Non không chỉ đẹp mà còn mang lại trái ngon, thích hợp để trồng trong nhà hoặc sân vườn nhỏ. Cây cần ánh sáng đầy đủ và đất giàu dinh dưỡng.",
+      "commonName": "Chuối Non",
+      "scientificName": "Musa acuminata",
+      "plantFamily": "Musaceae",
+      "height": "1.5-3m",
+      "origin": "Xuất xứ từ Đông Nam Á.",
+      "describe": "Cây Chuối Non có thân cao, lá to và bóng, dễ trồng và chăm sóc. Cây thích hợp với khí hậu nhiệt đới và cần được tưới nước đều đặn để phát triển tốt."
+    },
+    {
+      "id": 22,
+      "name": "Cây Cọ Đài Loan",
+      "price": 400000,
+      "discountPercentage": 20,
+      "rating": 5,
+      "image": "../../assets/images/spx2-25.png",
+      "images": [
+        "spx2-9.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh đậm",
+      "description": "Cây Cọ Đài Loan là loại cây lớn mang lại vẻ đẹp sang trọng và xanh mát cho không gian sống. Cây phù hợp với các khu vực rộng rãi và cần chăm sóc kỹ lưỡng.",
+      "commonName": "Cọ Đài Loan",
+      "scientificName": "Livistona chinensis",
+      "plantFamily": "Arecaceae",
+      "height": "3-5m",
+      "origin": "Xuất xứ từ Đài Loan.",
+      "describe": "Cây Cọ Đài Loan có thân cao và thẳng, lá dài và mảnh mai, tạo nên dáng vẻ thanh lịch. Cây cần ánh sáng đầy đủ và đất thoát nước tốt để phát triển khỏe mạnh."
     }
   ],
   "en_products": [
@@ -212,16 +514,22 @@
       "price": 320000,
       "discountPercentage": 5,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-15.png",
       "images": [
-        "image1.jpg",
+        "spx2-15.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
-      "color": "Xanh cây",
-      "description": "The Dạ Lam plant brings a natural beauty, often used to decorate work desks or living spaces. It is easy to care for and suitable for various light conditions."
+      "color": "Green",
+      "description": "The Dạ Lam plant brings natural beauty and is often used to decorate desks or living spaces. It is easy to care for and adaptable to various lighting conditions.",
+      "commonName": "Dạ Lam, Huỳnh Tinh, Zebra Plant.",
+      "scientificName": "Calathea zebrina",
+      "plantFamily": "Marantaceae",
+      "height": "0.8-1.2m",
+      "origin": "Originally from Brazil, now widely cultivated in Vietnam.",
+      "describe": "The Dạ Lam grows in clumps, with straight stems reaching 0.8-1.2m. The leaves are egg-shaped, with a prominent white vein. This plant is ideal for interior decoration and has air-purifying properties, making it perfect for spaces with frequent electronic equipment."
     },
     {
       "id": 2,
@@ -231,14 +539,20 @@
       "rating": 5,
       "image": "../../assets/images/spx2-2.png",
       "images": [
-        "image1.jpg",
+        "spx2-14.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây chậu treo",
-      "color": "Đỏ cam",
-      "description": "The Danh Dự plant has an elegant appearance with straight leaves, creating a luxurious feel. It’s perfect as a gift or for decorating spaces like living rooms or offices."
+      "color": "Orange",
+      "description": "The Danh Dự plant has an elegant shape, with straight leaves that create a luxurious feel. Suitable as a gift or for decorating living rooms or offices.",
+      "commonName": "Danh Dự",
+      "scientificName": "Zamia furfuracea",
+      "plantFamily": "Zamiaceae",
+      "height": "0.5-1m",
+      "origin": "Native to tropical America.",
+      "describe": "The Danh Dự plant has short stems and lance-shaped leaves. It's easy to care for and thrives in various lighting conditions, making it a great choice for indoor air purification."
     },
     {
       "id": 3,
@@ -246,16 +560,22 @@
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-3.png",
       "images": [
-        "image1.jpg",
+        "spx2-13.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
-      "type":"Cây có hoa",
-      "color":"Tím",
-      "description": "The Chân Chim plant adds freshness to your living space, with its wide-spread leaves resembling bird feet. It’s easy to grow and ideal for decorating living rooms or balconies."
+      "type": "Cây có hoa",
+      "color": "Purple",
+      "description": "The Chân Chim plant adds freshness to your space with wide, bird-like leaves. It is easy to grow and perfect for living rooms or balconies.",
+      "commonName": "Chân Chim",
+      "scientificName": "Schefflera arboricola",
+      "plantFamily": "Araliaceae",
+      "height": "1-2m",
+      "origin": "Native to Southeast Asia.",
+      "describe": "The Chân Chim plant has compound leaves shaped like bird feet. It's drought-tolerant and low-maintenance, making it an ideal choice for indoor air quality improvement."
     },
     {
       "id": 4,
@@ -263,16 +583,22 @@
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-4.png",
       "images": [
-        "image1.jpg",
+        "spx2-12.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây dây leo",
-      "color": "Xanh trời",
-      "description": "The Cỏ Ta plant, with its lush green leaves, is often used to decorate small spaces or as a hanging plant. It grows quickly and is easy to care for."
+      "color": "Sky Blue",
+      "description": "The Cỏ Ta plant, with lush green leaves, is commonly used to decorate small spaces or as a hanging plant. It grows quickly and is easy to care for.",
+      "commonName": "Cỏ Ta",
+      "scientificName": "Pilea microphylla",
+      "plantFamily": "Urticaceae",
+      "height": "0.2-0.5m",
+      "origin": "Native to tropical America.",
+      "describe": "Cỏ Ta is a small herbaceous plant with a rapid growth rate. Its bright green leaves make it ideal for bright spaces, though it can also thrive in shaded areas."
     },
     {
       "id": 5,
@@ -280,16 +606,22 @@
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-5.png",
       "images": [
-        "image1.jpg",
+        "spx2-11.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
-      "type":"Cây để bàn",
-      "color": "Vàng",
-      "description": "The small coconut plant, with its sturdy stem, is perfect for decorating a work desk. It can thrive in low light environments and is easy to care for."
+      "type": "Cây để bàn",
+      "color": "Yellow",
+      "description": "The small coconut plant has a sturdy stem, making it perfect for desk decoration. It thrives in low-light environments and is easy to care for.",
+      "commonName": "Cây dừa nhỏ",
+      "scientificName": "Cocos nucifera",
+      "plantFamily": "Arecaceae",
+      "height": "0.5-1.5m",
+      "origin": "Xuất xứ từ các vùng nhiệt đới.",
+      "describe": "Cây dừa nhỏ có thân cây dày và chắc, lá dạng lông chim. Cây dễ trồng và thích hợp với không gian trong nhà, văn phòng, đặc biệt là nơi có ánh sáng yếu. Cây còn mang lại cảm giác nhiệt đới và sự tươi mát cho không gian."
     },
     {
       "id": 6,
@@ -297,118 +629,390 @@
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-6.png",
       "images": [
-        "image1.jpg",
+        "spx2-10.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây có hoa",
-      "color": "Hồng",
-      "description": "The Red Bud Dạ plant, with its vibrant red buds, is an ideal choice for home or office decoration. It adds a striking highlight to any living space."
+      "color": "Pink",
+      "description": "The Red Bud Dạ plant, with its vibrant red buds, is an ideal choice for home or office decoration. It adds a striking highlight to any living space.",
+      "commonName": "Dạ búp đỏ",
+      "scientificName": "Anthurium andraeanum",
+      "plantFamily": "Araceae",
+      "height": "0.5-1m",
+      "origin": "Native to Colombia and Ecuador.",
+      "describe": "The Red Bud Dạ plant has heart-shaped leaves and vibrant red flowers. It thrives in indirect light and well-drained soil, perfect for creating a bold statement in your living room or office."
     },
     {
       "id": 7,
-      "name": "Dạ Lam Plant",
+      "name": "Dạ Lam 2 Plant",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-7.png",
       "images": [
-        "image1.jpg",
+        "spx2-9.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
       "color": "Xanh cây",
-      "description": "The Dạ Lam plant brings a natural beauty, often used to decorate work desks or living spaces. It is easy to care for and suitable for various light conditions."
+      "description": "Cây Dạ Lam 2 là phiên bản cải tiến với lá dày dặn hơn, mang lại vẻ đẹp tự nhiên và dễ chăm sóc hơn. Phù hợp để trang trí bàn làm việc hoặc không gian sống.",
+      "commonName": "Dạ lam",
+      "scientificName": "Calathea zebrina",
+      "plantFamily": "Marantaceae",
+      "height": "0.8-1.2m",
+      "origin": "Brazil",
+      "describe": "Cây dễ chăm sóc, phát triển nhanh trong điều kiện bóng râm. Lá có màu xanh đậm với các sọc trắng, tạo nên vẻ đẹp nổi bật cho không gian nội thất."
     },
     {
       "id": 8,
-      "name": "Danh Dự Plant",
+      "name": "Danh Dự 2 Plant",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-8.png",
       "images": [
-        "image1.jpg",
+        "spx2-8.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây chậu treo",
       "color": "Đỏ cam",
-      "description": "The Danh Dự plant has an elegant appearance with straight leaves, creating a luxurious feel. It’s perfect as a gift or for decorating spaces like living rooms or offices."
+      "description": "Cây Danh Dự 2 có hình dáng thanh thoát hơn với lá dày dặn, tạo cảm giác sang trọng và hiện đại. Phù hợp làm quà tặng hoặc dùng trong các không gian như phòng khách, phòng làm việc.",
+      "commonName": "Danh Dự",
+      "scientificName": "Zamia furfuracea",
+      "plantFamily": "Zamiaceae",
+      "height": "0.5-1m",
+      "origin": "Vùng nhiệt đới châu Mỹ.",
+      "describe": "Lá cây mỏng, bóng, và mọc thẳng đứng. Cây dễ chăm sóc, thích hợp với nhiều loại đất và ánh sáng, từ bóng râm đến nắng nhẹ."
     },
     {
       "id": 9,
-      "name": "Chân Chim Plant",
+      "name": "Chân Chim 2 Plant",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-2.png",
+      "image": "../../assets/images/spx2-7.png",
       "images": [
-        "image1.jpg",
+        "spx2-7.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
-      "type":"Cây có hoa",
-      "color":"Tím",
-      "description": "The Chân Chim plant adds freshness to your living space, with its wide-spread leaves resembling bird feet. It’s easy to grow and ideal for decorating living rooms or balconies."
+      "type": "Cây có hoa",
+      "color": "Purple",
+      "description": "The Chân Chim 2 adds freshness and aesthetics to your living space, with wide, bird-like leaves. Easy to grow and ideal for living rooms or balconies.",
+      "commonName": "Chân Chim",
+      "scientificName": "Schefflera arboricola",
+      "plantFamily": "Araliaceae",
+      "height": "1-2m",
+      "origin": "Native to Southeast Asia.",
+      "describe": "The Chân Chim 2 plant has a strong life force, with many branches spreading like bird feet. It's suitable for indirect sunlight and well-drained soil."
     },
     {
       "id": 10,
-      "name": "Cỏ Ta Plant",
+      "name": "Cỏ Ta 2 Plant",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-12.png",
+      "image": "../../assets/images/spx2-6.png",
       "images": [
-        "image1.jpg",
+        "spx2-6.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây dây leo",
-      "color": "Xanh trời",
-      "description": "The Cỏ Ta plant, with its lush green leaves, is often used to decorate small spaces or as a hanging plant. It grows quickly and is easy to care for."
+      "color": "Sky Blue",
+      "description": "The Cỏ Ta 2 plant, with its vibrant green leaves and fast growth, is perfect for small space decoration or hanging. It’s easy to maintain and keeps its shape.",
+      "commonName": "Cỏ Ta",
+      "scientificName": "Pilea microphylla",
+      "plantFamily": "Urticaceae",
+      "height": "0.2-0.5m",
+      "origin": "Native to tropical America.",
+      "describe": "This small plant grows quickly, making it a great choice for interior decoration. It thrives with little light and requires minimal watering."
     },
     {
       "id": 11,
-      "name": "Dạ Lam Plant",
+      "name": "Dạ Lam 3 Plant",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-12.png",
+      "image": "../../assets/images/spx2-5.png",
       "images": [
-        "image1.jpg",
+        "spx2-5.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
       "type": "Cây để bàn",
       "color": "Xanh cây",
-      "description": "The Dạ Lam plant brings a natural beauty, often used to decorate work desks or living spaces. It is easy to care for and suitable for various light conditions."
+      "description": "Cây Dạ Lam 3 là phiên bản cuối cùng trong bộ sưu tập, mang đến sự phong phú với các lá màu xanh đậm và dáng cây hoàn hảo. Phù hợp để trang trí bàn làm việc hoặc không gian sống.",
+      "commonName": "Dạ lam",
+      "scientificName": "Calathea zebrina",
+      "plantFamily": "Marantaceae",
+      "height": "0.8-1.2m",
+      "origin": "Brazil",
+      "describe": "Cây dễ chăm sóc, phát triển nhanh trong điều kiện bóng râm. Lá có màu xanh đậm với các sọc trắng, tạo nên vẻ đẹp nổi bật cho không gian nội thất."
     },
     {
       "id": 12,
-      "name": "Small Coconut Plant",
+      "name": "Small Coconut 2 Plant",
       "price": 250000,
       "discountPercentage": 0,
       "rating": 5,
-      "image": "../../assets/images/spx2-12.png",
+      "image": "../../assets/images/spx2-4.png",
       "images": [
-        "image1.jpg",
+        "spx2-4.png",
         "image2.jpg",
         "image3.jpg",
         "image4.jpg"
       ],
-      "type":"Cây để bàn",
+      "type": "Cây để bàn",
       "color": "Vàng",
-      "description": "The small coconut plant, with its sturdy stem, is perfect for decorating a work desk. It can thrive in low light environments and is easy to care for."
+      "description": "The Small Coconut 2 has a sturdy stem and feather-like leaves, providing a stylish and tropical vibe to interior spaces. It thrives in low-light environments and is easy to maintain.",
+      "commonName": "Cây dừa nhỏ 2",
+      "scientificName": "Cocos nucifera",
+      "plantFamily": "Arecaceae",
+      "height": "0.5-1.5m",
+      "origin": "Vùng nhiệt đới.",
+      "describe": "Cây dễ chăm sóc, thích hợp cho không gian nội thất. Thân cây dày và chắc chắn, lá xanh mướt, tạo cảm giác nhiệt đới và tươi mới."
+    },
+    {
+      "id": 13,
+      "name": "Golden Pothos",
+      "price": 280000,
+      "discountPercentage": 10,
+      "rating": 4,
+      "image": "../../assets/images/spx2-16.png",
+      "images": [
+        "spx2-3.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Green",
+      "description": "The Golden Pothos brings a vibrant green touch to your home or office. It's perfect for hanging baskets or as a climbing plant on shelves.",
+      "commonName": "Golden Pothos",
+      "scientificName": "Epipremnum aureum",
+      "plantFamily": "Araceae",
+      "height": "0.6-1m",
+      "origin": "Native to Eastern Asia.",
+      "describe": "Golden Pothos features heart-shaped leaves with variegated yellow streaks. It thrives in low to bright indirect light and requires minimal watering, making it an ideal choice for beginners."
+    },
+    {
+      "id": 14,
+      "name": "Snake Plant",
+      "price": 200000,
+      "discountPercentage": 0,
+      "rating": 4,
+      "image": "../../assets/images/spx2-17.png",
+      "images": [
+        "spx2-3.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây có hoa",
+      "color": "Red",
+      "description": "The Snake Plant is a unique orchid with striking red flowers. It's perfect for adding a touch of elegance to your desk or shelf.",
+      "commonName": "Snake Plant",
+      "scientificName": "Aechmea fasciata",
+      "plantFamily": "Bromeliaceae",
+      "height": "0.3-0.6m",
+      "origin": "Southern Brazil",
+      "describe": "Snake Plant features thick, stiff leaves with striking red tips. It blooms with bright red flowers during the summer months and prefers bright, indirect light with well-draining soil."
+    },
+    {
+      "id": 15,
+      "name": "Tiger Lily",
+      "price": 350000,
+      "discountPercentage": 15,
+      "rating": 5,
+      "image": "../../assets/images/spx2-18.png",
+      "images": [
+        "spx2-10.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây nội thất",
+      "color": "Xanh lá",
+      "description": "The Tiger Lily with its long leaves and beautiful stripes brings a modern and luxurious look to your living space. It's easy to care for and suitable for various lighting conditions.",
+      "commonName": "Lưỡi Hổ",
+      "scientificName": "Sansevieria trifasciata",
+      "plantFamily": "Asparagaceae",
+      "height": "0.5-1.5m",
+      "origin": "Native to Africa.",
+      "describe": "The Tiger Lily has long, upright leaves with distinct green and yellow stripes. It requires bright, indirect light and minimal watering, making it perfect for busy individuals."
+    },
+    {
+      "id": 16,
+      "name": "Cactus Plant",
+      "price": 180000,
+      "discountPercentage": 0,
+      "rating": 4,
+      "image": "../../assets/images/spx2-19.png",
+      "images": [
+        "spx2-15.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "The Cactus Plant is a hardy succulent perfect for office or greenhouse decoration. It requires minimal watering and is easy to maintain.",
+      "commonName": "Xương Rồng",
+      "scientificName": "Echinocactus grusonii",
+      "plantFamily": "Cactaceae",
+      "height": "0.3-0.7m",
+      "origin": "Xuất xứ từ sa mạc Mexico.",
+      "describe": "Cactus Plant has a round shape with sharp spines. It thrives in direct sunlight and well-draining soil, making it an excellent low-maintenance choice for indoor and outdoor spaces."
+    },
+    {
+      "id": 17,
+      "name": "Herb Plant",
+      "price": 150000,
+      "discountPercentage": 5,
+      "rating": 4,
+      "image": "../../assets/images/spx2-20.png",
+      "images": [
+        "spx2-14.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "The Herb Plant not only adds greenery but can also be used in cooking or for medicinal purposes. It's easy to care for and suitable for various soil types.",
+      "commonName": "Thảo Mộc",
+      "scientificName": "Ocimum basilicum",
+      "plantFamily": "Lamiaceae",
+      "height": "0.3-0.6m",
+      "origin": "Xuất xứ từ Ấn Độ.",
+      "describe": "The Herb Plant has vibrant green leaves with a distinctive aroma. It requires full sun and regular watering to thrive, making it a versatile addition to any kitchen or garden."
+    },
+    {
+      "id": 18,
+      "name": "Orchid Plant",
+      "price": 300000,
+      "discountPercentage": 20,
+      "rating": 5,
+      "image": "../../assets/images/spx2-21.png",
+      "images": [
+        "spx2-13.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây có hoa",
+      "color": "Purple",
+      "description": "The Orchid Plant with its beautiful flowers is perfect for home decoration or as a gift. It requires indirect light and well-draining soil.",
+      "commonName": "Lan Ý",
+      "scientificName": "Phalaenopsis amabilis",
+      "plantFamily": "Orchidaceae",
+      "height": "0.4-0.8m",
+      "origin": "Native to Southeast Asia.",
+      "describe": "Phalaenopsis Orchid features elegant purple blooms that last for several weeks. It thrives in bright, indirect light and needs regular misting to keep the roots moist."
+    },
+    {
+      "id": 19,
+      "name": "Lucky Bamboo",
+      "price": 220000,
+      "discountPercentage": 10,
+      "rating": 4,
+      "image": "../../assets/images/spx2-22.png",
+      "images": [
+        "spx2-12.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây may mắn",
+      "color": "Xanh lá",
+      "description": "Lucky Bamboo is a feng shui plant that brings luck and prosperity. It's easy to care for and perfect for decorating your workspace or home.",
+      "commonName": "Lộc Vừng",
+      "scientificName": "Dracaena sanderiana",
+      "plantFamily": "Asparagaceae",
+      "height": "0.5-1m",
+      "origin": "Xuất xứ từ Châu Phi.",
+      "describe": "Lucky Bamboo has long, slender green stems that can be shaped into various forms. It thrives in indirect light and needs its roots to be submerged in water, which should be changed regularly."
+    },
+    {
+      "id": 20,
+      "name": "Pothos Plant",
+      "price": 160000,
+      "discountPercentage": 0,
+      "rating": 4,
+      "image": "../../assets/images/spx2-23.png",
+      "images": [
+        "spx2-11.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "The Pothos Plant with its glossy green leaves provides a relaxing and pleasant atmosphere. It's easy to care for and suitable for various lighting conditions.",
+      "commonName": "Trầu Bà",
+      "scientificName": "Epipremnum aureum",
+      "plantFamily": "Araceae",
+      "height": "1-2m",
+      "origin": "Native to Southeast Asia.",
+      "describe": "Pothos has heart-shaped leaves with variegated patterns of yellow and white. It thrives in bright, indirect light but can also tolerate low light conditions. Regular watering helps maintain its vibrant appearance."
+    },
+    {
+      "id": 21,
+      "name": "Banana Plant",
+      "price": 270000,
+      "discountPercentage": 10,
+      "rating": 5,
+      "image": "../../assets/images/spx2-24.png",
+      "images": [
+        "spx2-10.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh lá",
+      "description": "The Banana Plant is not only beautiful but also bears delicious fruits. It's suitable for indoor or small garden cultivation, requiring ample sunlight and nutrient-rich soil.",
+      "commonName": "Chuối Non",
+      "scientificName": "Musa acuminata",
+      "plantFamily": "Musaceae",
+      "height": "1.5-3m",
+      "origin": "Xuất xứ từ Đông Nam Á.",
+      "describe": "Banana Plant features large, broad leaves and produces sweet bananas. It requires full sun and regular watering to thrive, making it a delightful addition to any home garden."
+    },
+    {
+      "id": 22,
+      "name": "Taiwanese Palm",
+      "price": 400000,
+      "discountPercentage": 20,
+      "rating": 5,
+      "image": "../../assets/images/spx2-25.png",
+      "images": [
+        "spx2-9.png",
+        "image2.jpg",
+        "image3.jpg",
+        "image4.jpg"
+      ],
+      "type": "Cây trang trí",
+      "color": "Xanh đậm",
+      "description": "The Taiwanese Palm is a large plant that brings elegance and lush greenery to your living space. It's suitable for spacious areas and requires careful maintenance.",
+      "commonName": "Cọ Đài Loan",
+      "scientificName": "Livistona chinensis",
+      "plantFamily": "Arecaceae",
+      "height": "3-5m",
+      "origin": "Xuất xứ từ Đài Loan.",
+      "describe": "Taiwanese Palm has a tall, straight trunk with long, slender green fronds that provide a graceful appearance. It needs ample sunlight and well-draining soil to grow healthily."
     }
   ],
   "carts": [],
@@ -437,4 +1041,3 @@
     }
   ]
 }
-
